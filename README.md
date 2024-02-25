@@ -19,6 +19,37 @@ This project leverages the YOLOv7 algorithm for real-time object detection and t
 - YOLOv7 is loaded with pre-trained weights and configured to detect objects defined in `coco.yaml`.
 - Detected objects are tracked across frames, with their movement paths visualized.
 
+### Single ROI Selection
+
+To select a single ROI, run the project and wait for the video stream to start. Once the stream is live:
+
+1. Press the `s` key to enter single ROI selection mode.
+2. Click and drag the mouse over the area you wish to track.
+3. Release the mouse button to finalize the ROI.
+4. The system will now focus on detecting and tracking objects within this specified region.
+
+This feature is particularly useful for isolating the tracking to a specific object or area in the scene, enhancing tracking accuracy and efficiency.
+
+### Multiple ROI Selection
+
+For scenarios requiring attention to several areas simultaneously, our system allows for multiple ROI selections:
+
+1. Press the `f` key to initiate multiple ROI selection.
+2. For each ROI, click and drag the mouse over the desired area and release to finalize it.
+3. After selecting an ROI, press the `f` key again to continue selecting additional ROIs.
+4. To complete the selection process and start tracking, press the `g` key.
+
+Each selected ROI will be individually monitored, enabling the detection and tracking of objects across multiple areas of interest within the same frame.
+
+### Tips for Effective ROI Selection
+
+- Ensure clear boundaries for each ROI to avoid overlap, which could affect tracking performance.
+- Use the multiple ROI feature judiciously, as tracking numerous areas simultaneously may increase computational load and impact performance.
+- ROI selection can be adjusted or reset at any time by re-initiating the selection process.
+
+By utilizing ROI selection, users can tailor the object detection and tracking process to specific needs, focusing computational resources on areas of interest and improving overall system efficiency.
+
+
 ### Heatmap Visualization
 - A heatmap is generated and updated in real-time to visualize the frequency of object movements across different areas of the frame.
 
