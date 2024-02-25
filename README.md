@@ -56,7 +56,7 @@ By utilizing ROI selection, users can tailor the object detection and tracking p
 
 ### Saving Results
 - Detected objects and their tracking information are saved to a file, providing a summary of object counts per frame and detailed tracking data.
-![Saving Results](https://github.com/ynsemreth/VisionaryTracker/blob/main/output.mp4)
+[View Saving Results Video](https://github.com/ynsemreth/VisionaryTracker/blob/main/output.mp4)
 
 ## Implementation Details
 
