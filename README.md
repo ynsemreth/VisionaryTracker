@@ -22,6 +22,9 @@ This project leverages the YOLOv7 algorithm for real-time object detection and t
 ### Heatmap Visualization
 - A heatmap is generated and updated in real-time to visualize the frequency of object movements across different areas of the frame.
 
+![Heatmap Visualization](https://github.com/ynsemreth/VisionaryTracker/blob/main/final_heatmap.jpg)
+
+
 ### Saving Results
 - Detected objects and their tracking information are saved to a file, providing a summary of object counts per frame and detailed tracking data.
 
@@ -45,6 +48,7 @@ This project leverages the YOLOv7 algorithm for real-time object detection and t
 python byteTracking.py
 
 python byteTracking.py --video ./videos/examples.mp4
+```
 
 4. Use keyboard commands during execution to interact with the tracking process.
 
