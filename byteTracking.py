@@ -75,6 +75,7 @@ def add_weighted_heat(heatmap, center_x, center_y, weight=1, size=10):
     return heatmap
 
 roi_selected = False
+multi_roi_selection = False 
 tracking_id = None
 track_mode = False
 frame_id = 0  
@@ -82,7 +83,6 @@ lines = {}
 arrow_lines = []
 arrow_line_length = 50
 rois = []  
-tracking_ids = []
 
 while True:
     ret, frame = video.read()
@@ -175,16 +175,36 @@ while True:
                 else:
                     arrow_lines.append({'start': points[-2], 'end': points[-1]})
             
-    for line_key, line_value in lines.items():
-        if line_key == tracking_id: 
-            arrow_lines = line_value['arrows']
-            for arrow_line in arrow_lines:
-                frame = cv2.arrowedLine(frame, tuple(arrow_line['start']), tuple(arrow_line['end']), line_value['color'], 2, line_type=cv2.LINE_AA)
+        for line_key, line_value in lines.items():
+            if line_key == tracking_id: 
+                arrow_lines = line_value['arrows']
+                for arrow_line in arrow_lines:
+                    frame = cv2.arrowedLine(frame, tuple(arrow_line['start']), tuple(arrow_line['end']), line_value['color'], 2, line_type=cv2.LINE_AA)
 
-    detection_to_draw = [detection for detection in detections if detection.get('id') == tracking_id]
-    if detection_to_draw:
-        frame = draw(frame, detection_to_draw,tracking_id=tracking_id)
-        save_tracking_results(detection_to_draw, frame_id)
+        detection_to_draw = [detection for detection in detections if detection.get('id') == tracking_id]
+        if detection_to_draw:
+            frame = draw(frame, detection_to_draw,tracking_id=tracking_id)
+            save_tracking_results(detection_to_draw, frame_id)
+
+    elif multi_roi_selection and track_mode:
+        detections = yolov7.detect(frame, track=True)
+        tracker_ids = {}
+    
+        for roi_index, roi in enumerate(rois):
+            best_overlap = 0
+            best_detection = None
+            for detection in detections:
+                overlap = calculate_overlap(roi, detection)
+                if overlap > best_overlap:
+                    best_overlap = overlap
+                    best_detection = detection
+        
+            if best_detection:
+                tracker_ids[roi_index] = best_detection
+    
+        for detection in tracker_ids.values():
+            frame = draw(frame, [detection], tracking_id=detection['id'])
+            save_tracking_results([detection], frame_id, file_tracker=True)
 
     heatmap_blurred = cv2.GaussianBlur(heatmap_accumulator, (51, 51), 0)
     heatmap_normalized = cv2.normalize(heatmap_blurred, None, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX)
@@ -212,6 +232,8 @@ while True:
             if roi[2] > 0 and roi[3] > 0:  
                 rois.append(roi)
                 print(f"Çizilen Roi'nin Koordinatları: {roi}")
+                multi_roi_selection = True
+                track_mode = True
             else:
                 print("[!] Geçersiz ROI, atlanıyor.")
                 break 
