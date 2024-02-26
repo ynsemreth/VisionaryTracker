@@ -91,28 +91,28 @@ This project showcases the power of YOLOv7 for real-time object detection and tr
 ## HOG (Histogram of Oriented Gradients)
 
 ### Amaç: 
-    HOG, görüntülerdeki şekil ve doku bilgilerini yakalamak için tasarlanmış bir özellik çıkartma yöntemidir.
+HOG, görüntülerdeki şekil ve doku bilgilerini yakalamak için tasarlanmış bir özellik çıkartma yöntemidir.
     
 ### Çalışma Prensibi:
-     Görüntüdeki her bir pikselin gradyan yönünü ve büyüklüğünü hesaplar. Daha sonra, bu gradyanlar belirli bir pencere içerisindeki hücrelere ayrılır ve her bir hücre için gradyan yönlerinin histogramı oluşturulur. Bu histogramlar, görüntünün yerel gradyan yapısını özetleyen güçlü ve açıklayıcı özellikler üretir.
+Görüntüdeki her bir pikselin gradyan yönünü ve büyüklüğünü hesaplar. Daha sonra, bu gradyanlar belirli bir pencere içerisindeki hücrelere ayrılır ve her bir hücre için gradyan yönlerinin histogramı oluşturulur. Bu histogramlar, görüntünün yerel gradyan yapısını özetleyen güçlü ve açıklayıcı özellikler üretir.
 
 ### Kullanım Alanları: 
-    Yaya tespiti, araç tanıma ve insan tanıma gibi görevlerde yaygın olarak kullanılır.
+Yaya tespiti, araç tanıma ve insan tanıma gibi görevlerde yaygın olarak kullanılır.
 
 ## SIFT (Scale-Invariant Feature Transform)
 
 ### Amaç: 
-    SIFT, görüntülerdeki anahtar noktaları bulmak ve bunların özelliklerini çıkarmak için kullanılır. Bu algoritma, ölçek ve dönüşüme karşı dayanıklı özellikler sağlar.
+SIFT, görüntülerdeki anahtar noktaları bulmak ve bunların özelliklerini çıkarmak için kullanılır. Bu algoritma, ölçek ve dönüşüme karşı dayanıklı özellikler sağlar.
 ### Çalışma Prensibi:
-    Görüntü üzerinde ölçek uzayı aşamaları uygulanır, potansiyel ilgi noktaları tespit edilir, ve bu noktaların çevresindeki gradyan bilgileri kullanılarak her bir nokta için benzersiz bir tanımlayıcı (descriptor) oluşturulur.
+Görüntü üzerinde ölçek uzayı aşamaları uygulanır, potansiyel ilgi noktaları tespit edilir, ve bu noktaların çevresindeki gradyan bilgileri kullanılarak her bir nokta için benzersiz bir tanımlayıcı (descriptor) oluşturulur.
 ### Kullanım Alanları: 
-    Nesne tanıma, panoramik görüntü birleştirme ve 3D modelleme gibi çeşitli alanlarda kullanılır.
+Nesne tanıma, panoramik görüntü birleştirme ve 3D modelleme gibi çeşitli alanlarda kullanılır.
 
 ## SURF (Speeded Up Robust Features)
 
 ### Amaç: 
-    SURF, SIFT'in hedeflediği sorunları çözmek için tasarlanmıştır ancak daha hızlı hesaplama ve benzer veya daha iyi performans sunar.
+SURF, SIFT'in hedeflediği sorunları çözmek için tasarlanmıştır ancak daha hızlı hesaplama ve benzer veya daha iyi performans sunar.
 ### Çalışma Prensibi: 
-    Hızlı bir şekilde ilgi noktalarını tespit etmek için Hessian matris tabanlı bir yaklaşım kullanır. Bu noktalar için özellik tanımlayıcıları, ilgi noktalarının çevresindeki basit, hızlı ve etkili bir şekilde hesaplanabilir şekilde üretilir.
+Hızlı bir şekilde ilgi noktalarını tespit etmek için Hessian matris tabanlı bir yaklaşım kullanır. Bu noktalar için özellik tanımlayıcıları, ilgi noktalarının çevresindeki basit, hızlı ve etkili bir şekilde hesaplanabilir şekilde üretilir.
 ### Kullanım Alanları: 
-    SIFT'e benzer şekilde, nesne tanıma, görüntü eşleştirme ve 3D rekonstrüksiyon gibi alanlarda kullanılır.
+SIFT'e benzer şekilde, nesne tanıma, görüntü eşleştirme ve 3D rekonstrüksiyon gibi alanlarda kullanılır.
