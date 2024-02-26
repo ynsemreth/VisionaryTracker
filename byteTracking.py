@@ -188,8 +188,9 @@ while True:
 
     elif multi_roi_selection and track_mode:
         detections = yolov7.detect(frame, track=True)
+        initial_tracker_ids = {}  
         tracker_ids = {}
-    
+
         for roi_index, roi in enumerate(rois):
             best_overlap = 0
             best_detection = None
@@ -198,9 +199,40 @@ while True:
                 if overlap > best_overlap:
                     best_overlap = overlap
                     best_detection = detection
-        
+    
             if best_detection:
+                if roi_index not in initial_tracker_ids:
+                    initial_tracker_ids[roi_index] = best_detection['id']
+                tracking_id = initial_tracker_ids[roi_index] 
+                best_detection['id'] = tracking_id 
                 tracker_ids[roi_index] = best_detection
+
+                if tracking_id not in lines:
+                    color = (np.random.randint(0,255), np.random.randint(0,255), np.random.randint(0,255))
+                    best_detection['color'] = color
+                    lines[tracking_id] = {'points': [], 'arrows': [], 'color': color}
+                else:
+                    best_detection['color'] = lines[tracking_id]['color']
+
+                x_center = best_detection['x'] + best_detection['width'] / 2
+                y_center = best_detection['y'] + best_detection['height'] / 2
+                lines[tracking_id]['points'].append(np.array([x_center, y_center], np.int32))
+        
+                points = lines[tracking_id]['points']
+                if len(points) >= 2:
+                    arrow_lines = lines[tracking_id]['arrows']
+                    if len(arrow_lines) > 0:
+                        distance = np.linalg.norm(points[-1] - arrow_lines[-1]['end'])
+                        if distance >= arrow_line_length:
+                            start = np.rint(arrow_lines[-1]['end'] - ((arrow_lines[-1]['end'] - points[-1]) / distance) * 10).astype(int)
+                            arrow_lines.append({'start': start, 'end': points[-1]})
+                    else:
+                        arrow_lines.append({'start': points[-2], 'end': points[-1]})
+
+        for line_key, line_value in lines.items():
+            arrow_lines = line_value['arrows']
+            for arrow_line in arrow_lines:
+                frame = cv2.arrowedLine(frame, tuple(arrow_line['start']), tuple(arrow_line['end']), line_value['color'], 2, line_type=cv2.LINE_AA)
     
         for detection in tracker_ids.values():
             frame = draw(frame, [detection], tracking_id=detection['id'])
