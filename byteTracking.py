@@ -9,6 +9,14 @@ multi_roi_selection = False
 track_mode = False 
 rois = []  
 
+def hog_ozellikleri_yazdir(frame, roi):
+    x, y, w, h = roi
+    roi_goruntu = frame[y:y+h, x:x+w]
+    roi_goruntu = cv2.resize(roi_goruntu, (64, 128))  # HOG için boyutlandırma
+    hog = cv2.HOGDescriptor()
+    hog_ozellikleri = hog.compute(roi_goruntu)
+    print("HOG Özellikleri:", hog_ozellikleri.flatten())
+
 parser = argparse.ArgumentParser(description='YOLOv7 ile nesne tespiti ve takibi')
 parser.add_argument('--video', type=str, default='', help='Video dosyasının yolu. Boş bırakılırsa, varsayılan kamera kullanılır.')
 args = parser.parse_args()
@@ -32,17 +40,20 @@ while True:
     if not ret:
         print("[!] Video akışından kare alınamadı.")
         break
-    
-    detections = yolov7.detect(frame, track=True)
-    detected_frame = frame
 
     if not track_mode:
+        detections = yolov7.detect(frame, track=True)
+        detected_frame = frame
         frame = detection_object(detections,detected_frame)
 
     elif roi_selected and track_mode:
+        detections = yolov7.detect(frame, track=True)
+        detected_frame = frame
         frame = detection_roi_single(detections,roi,detected_frame)
 
     elif multi_roi_selection and track_mode:
+        detections = yolov7.detect(frame, track=True)
+        detected_frame = frame
         frame = detection_roi_multi(detections,rois,detected_frame)
 
     cv2.imshow('ByteTracker', frame)
@@ -58,6 +69,7 @@ while True:
         if roi[2] > 0 and roi[3] > 0: 
             roi_selected = True
             track_mode = True
+            hog_ozellikleri_yazdir(frame, roi)
     elif key == ord('f'):  
         while True:  
             roi = cv2.selectROI("ByteTracker", frame, False)
