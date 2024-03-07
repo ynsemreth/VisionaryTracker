@@ -6,9 +6,6 @@ from utils.roi_selected import detection_object, detection_roi_single, detection
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
-import warnings
-warnings.filterwarnings("ignore", category=DeprecationWarning, module="pkg_resources.*")
-
 def main(video_path=''):
     roi_selected = False
     multi_roi_selection = False 
@@ -16,7 +13,7 @@ def main(video_path=''):
     rois = []  
 
     yolov7 = YOLOv7()
-    yolov7.load('coco.weights', classes='coco.yaml', device='cpu')
+    yolov7.load('./algorithm/coco.weights', classes='./algorithm/coco.yaml', device='cpu')
 
     video = cv2.VideoCapture(video_path if video_path else 0)
 
@@ -25,7 +22,7 @@ def main(video_path=''):
         exit()
 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    out = cv2.VideoWriter('output.mp4', fourcc, 20.0, (int(video.get(3)), int(video.get(4))))
+    out = cv2.VideoWriter('./result/output.mp4', fourcc, 20.0, (int(video.get(3)), int(video.get(4))))
 
     print('[+] Video takip ediliyor...\n')
 

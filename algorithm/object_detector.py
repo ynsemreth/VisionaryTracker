@@ -12,17 +12,15 @@ import yaml
 
 
 class YOLOv7:
-    def __init__(self, conf_thres=0.25, iou_thres=0.45, img_size=640, ocr_classes=[]):
+    def __init__(self, conf_thres=0.25, iou_thres=0.45, img_size=640):
         self.settings = {
             'conf_thres':conf_thres,
             'iou_thres':iou_thres,
             'img_size':img_size,
-            'ocr_classes':ocr_classes
         }
         self.tracker = BYTETracker()
-        self.text_recognizer = None
 
-    def load(self, weights_path, classes, ocr_weights=None, device='cpu'):
+    def load(self, weights_path, classes, device='cpu'):
         with torch.no_grad():
             self.device = select_device(device)
             self.model = attempt_load(weights_path, device=self.device)
@@ -34,13 +32,6 @@ class YOLOv7:
             stride = int(self.model.stride.max())
             self.imgsz = check_img_size(self.settings['img_size'], s=stride)
             self.classes = yaml.load(open(classes), Loader=yaml.SafeLoader)['classes']
-        
-        if len(self.settings['ocr_classes']) > 0 and ocr_weights is not None:
-            from easy_paddle_ocr import TextRecognizer
-            self.text_recognizer = TextRecognizer(weights=ocr_weights, device=device)
-        else:
-            from utils import ocr
-            self.text_recognizer = ocr
 
     def unload(self):
         if self.device.type != 'cpu':
@@ -84,16 +75,5 @@ class YOLOv7:
                 raw_detection = self.tracker.update(raw_detection)
             
             detections = Detections(raw_detection, self.classes, tracking=track).to_dict()
-
-            if len(self.settings['ocr_classes']) > 0 and self.text_recognizer is not None:
-                for detection in detections:
-                    if detection['class'] in self.settings['ocr_classes']:
-                        cropped_box = crop(im0, detection)
-                        text = ''
-                        try:
-                            text = self.text_recognizer.read(cropped_box)['text']
-                        except:
-                            pass
-                        detection['text'] = text
             
             return detections
