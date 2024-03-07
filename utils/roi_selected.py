@@ -179,4 +179,4 @@ def heatmap(heatmap_accumulator):
     heatmap_normalized = cv2.normalize(heatmap_blurred, None, alpha=0, beta=255, norm_type=cv2.NORM_MINMAX)
     heatmap_color = cv2.applyColorMap(heatmap_normalized.astype(np.uint8), cv2.COLORMAP_JET)
 
-    cv2.imwrite('./result/ısı_haritası.jpg', heatmap_color)
+    cv2.imwrite('./result/isi_haritası.jpg', heatmap_color)

@@ -1,8 +1,7 @@
 import cv2
 import argparse
-from algorithm.object_detector import YOLOv7
+from yolo_model.object_detector import YOLOv7
 from utils.roi_selected import detection_object, detection_roi_single, detection_roi_multi
-
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
@@ -13,7 +12,7 @@ def main(video_path=''):
     rois = []  
 
     yolov7 = YOLOv7()
-    yolov7.load('./algorithm/coco.weights', classes='./algorithm/coco.yaml', device='cpu')
+    yolov7.load('./algorithm/model.pt', classes='./algorithm/coco.yaml', device='cpu')
 
     video = cv2.VideoCapture(video_path if video_path else 0)
 
