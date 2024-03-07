@@ -3,6 +3,12 @@ import argparse
 from algorithm.object_detector import YOLOv7
 from utils.roi_selected import detection_object, detection_roi_single, detection_roi_multi
 
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="pkg_resources.*")
+
 def main(video_path=''):
     roi_selected = False
     multi_roi_selection = False 
