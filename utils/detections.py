@@ -129,9 +129,8 @@ def draw(image, detections, tracking_id=None):
         width = box['width']
         height = box['height']
         
-        # Takip edilen nesne için kırmızı, diğerleri için tanımlanan renk
         if 'id' in box and box['id'] == tracking_id:
-            color = (0, 0, 255)  # Kırmızı
+            color = (0, 0, 255)  
         else:
             color = box['color']
             if isinstance(color, str):
