@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from models.experimental import attempt_load
 
-weights_path = "./coco.weights"
+weights_path = "./algorithm/coco.weights"
 
 model = attempt_load(weights_path, device='cpu')
 model.eval()
