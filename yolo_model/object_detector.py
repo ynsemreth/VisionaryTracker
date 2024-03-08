@@ -2,6 +2,7 @@ import warnings
 warnings.filterwarnings('ignore')
 from utils.general import check_img_size, non_max_suppression, scale_coords
 from utils.torch_utils import select_device
+from yolo_model.experimental import attempt_load
 from utils.detections import Detections
 from utils.datasets import letterbox
 from byte_tracker import BYTETracker
@@ -22,7 +23,7 @@ class YOLOv7:
     def load(self, weights_path, classes, device='cpu'):
         with torch.no_grad():
             self.device = select_device(device)
-            self.model = torch.load(weights_path)
+            self.model = attempt_load(weights_path, device=self.device)
             
             if device != 'cpu':
                 self.model.half()
