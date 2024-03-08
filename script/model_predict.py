@@ -1,11 +1,11 @@
-from yolo_model.experimental import attempt_load
+# from models.experimental import attempt_load
 import torch
 
-weights_path = "./algorithm/coco.weights"
+# weights_path = "./algorithm/coco.weights"
 
-model = attempt_load(weights_path, device='cpu')
+# model = attempt_load(weights_path, device='cpu')
 
-torch.save(model, 'model.pt')
+# torch.save(model, 'model.pt')
 
 model = torch.load('model.pt')
 

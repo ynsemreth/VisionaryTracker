@@ -6745,3 +6745,88 @@ Frame 42: person: 1
 Frame 43: person: 1
 Frame 44: person: 1
 Frame 45: person: 1
+Frame 1: bird: 1, person: 15
+Frame 2: bird: 1, person: 15
+Frame 3: bird: 1, person: 18
+Frame 4: bird: 1, person: 20
+Frame 5: bird: 1, person: 20
+Frame 6: bird: 1, person: 20
+Frame 7: bird: 1, person: 19
+Frame 8: bird: 1, person: 19
+Frame 9: bird: 1, person: 21
+Frame 10: bird: 1, person: 21
+Frame 11: bird: 1, person: 22
+Frame 12: bird: 1, person: 22
+Frame 13: bird: 1, person: 22
+Frame 14: bird: 1, person: 22
+Frame 15: bird: 1, person: 21
+Frame 16: bird: 1, person: 21
+Frame 17: bird: 1, person: 22
+Frame 18: bird: 1, person: 22
+Frame 1: bird: 1, person: 15
+Frame 2: bird: 1, person: 15
+Frame 3: bird: 1, person: 18
+Frame 4: bird: 1, person: 20
+Frame 5: bird: 1, person: 20
+Frame 6: bird: 1, person: 20
+Frame 7: bird: 1, person: 19
+Frame 8: bird: 1, person: 19
+Frame 9: bird: 1, person: 21
+Frame 10: bird: 1, person: 21
+Frame 11: bird: 1, person: 22
+Frame 12: bird: 1, person: 22
+Frame 13: bird: 1, person: 22
+Frame 14: bird: 1, person: 22
+Frame 15: bird: 1, person: 21
+Frame 16: bird: 1, person: 21
+Frame 17: bird: 1, person: 22
+Frame 18: bird: 1, person: 22
+Frame 19: bird: 1, person: 23
+Frame 1: bird: 1, person: 15
+Frame 2: bird: 1, person: 15
+Frame 3: bird: 1, person: 18
+Frame 4: bird: 1, person: 20
+Frame 5: bird: 1, person: 20
+Frame 6: bird: 1, person: 20
+Frame 7: bird: 1, person: 19
+Frame 8: bird: 1, person: 19
+Frame 9: bird: 1, person: 21
+Frame 10: bird: 1, person: 21
+Frame 11: bird: 1, person: 22
+Frame 12: bird: 1, person: 22
+Frame 13: bird: 1, person: 22
+Frame 14: bird: 1, person: 22
+Frame 1: potted plant: 1, person: 1
+Frame 2: potted plant: 1, person: 1
+Frame 3: potted plant: 1, person: 1
+Frame 4: potted plant: 2, person: 1
+Frame 5: potted plant: 2, person: 1
+Frame 6: potted plant: 2, person: 1
+Frame 7: potted plant: 2, person: 1
+Frame 8: potted plant: 1, person: 1
+Frame 9: potted plant: 2, person: 1
+Frame 10: potted plant: 2, person: 1
+Frame 11: potted plant: 2, person: 1
+Frame 12: potted plant: 2, person: 1
+Frame 13: potted plant: 2, person: 1
+Frame 14: potted plant: 2, person: 1
+Frame 15: potted plant: 2, person: 1
+Frame 16: potted plant: 2, person: 1
+Frame 17: potted plant: 2, person: 1
+Frame 18: potted plant: 2, person: 1
+Frame 19: potted plant: 2, person: 1
+Frame 20: potted plant: 2, person: 1
+Frame 21: potted plant: 2, person: 1
+Frame 22: potted plant: 2, person: 1
+Frame 23: potted plant: 2, person: 1
+Frame 24: potted plant: 2, person: 1
+Frame 25: potted plant: 2, person: 1
+Frame 26: potted plant: 2, person: 1
+Frame 27: potted plant: 2, person: 1
+Frame 28: potted plant: 2, person: 1
+Frame 29: potted plant: 2, person: 1
+Frame 30: potted plant: 2, person: 1
+Frame 31: potted plant: 2, person: 1
+Frame 32: person: 1, potted plant: 1
+Frame 33: person: 1, potted plant: 1
+Frame 34: person: 1, potted plant: 1
