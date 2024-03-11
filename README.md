@@ -14,6 +14,7 @@ python train.py --workers 2 --device 'cpu' --batch 4 --data C:\Users\cypoi\Masa�
 - **Nesne İzleme**: Nesneleri kareler boyunca izler ve yollarını görselleştirir.
 - **Isı Haritası Oluşturma**: Nesnelerin izlenen yollarına dayalı bir ısı haritası oluşturur.
 - **Özelleştirilebilir Video Girişi**: Video dosyalarını veya canlı web kamerası akışlarını işlemeyi destekler.
+- **Seçilen Nesnenin Özelliklerini Çıkarma (HOG algortimasıyla)** : Roi ile seçilen nesnenin hem fotoğrafını fram frame hemde hog özelliklerini .txt dosyasına kaydeder.
 - **Sonuç Kaydetme**: Algılanan nesnelerin ve izleme bilgilerinin bir özetini kaydeder.
 
 ## Nasıl Çalışır
