@@ -1,6 +1,6 @@
 # VISIONARY TRACKER
 
-This project leverages the YOLOv7 algorithm for real-time object detection and tracking in video streams or from a webcam. It includes functionalities for drawing detection bounding boxes, tracking object movements, generating heatmaps for tracking visualization, and saving tracking results.
+This project leverages the YOLOv9 algorithm for real-time object detection and tracking in video streams or from a webcam. It includes functionalities for drawing detection bounding boxes, tracking object movements, generating heatmaps for tracking visualization, and saving tracking results.
 
 ## Training 
 
@@ -10,7 +10,7 @@ python train.py --workers 2 --device 'cpu' --batch 4 --data C:\Users\cypoi\Masa√
 
 ## Features
 
-- **Object Detection**: Utilizes YOLOv7 for detecting objects in each frame of the video.
+- **Object Detection**: Utilizes YOLOv9 for detecting objects in each frame of the video.
 - **Object Tracking**: Tracks objects across frames, visualizing their paths.
 - **Heatmap Generation**: Generates a heatmap based on the tracked paths of objects.
 - **Customizable Video Input**: Supports processing video files or live webcam streams.
@@ -58,7 +58,7 @@ By utilizing ROI selection, users can tailor the object detection and tracking p
 
 ### Heatmap Visualization
 - A heatmap is generated and updated in real-time to visualize the frequency of object movements across different areas of the frame.
-![Heatmap Visualization](https://github.com/ynsemreth/VisionaryTracker/blob/main/final_heatmap.jpg)
+![Heatmap Visualization](https://github.com/ynsemreth/VisionaryTracker/blob/main/result/final_heatmap.jpg)
 
 ### Saving Results
 - Detected objects and their tracking information are saved to a file, providing a summary of object counts per frame and detailed tracking data.
