@@ -58,7 +58,7 @@ By utilizing ROI selection, users can tailor the object detection and tracking p
 
 ### Heatmap Visualization
 - A heatmap is generated and updated in real-time to visualize the frequency of object movements across different areas of the frame.
-![Heatmap Visualization](https://github.com/ynsemreth/VisionaryTracker/blob/main/result/final_heatmap.jpg)
+![Heatmap Visualization](https://github.com/ynsemreth/VisionaryTracker/blob/main/result/heatmap.jpg)
 
 ### Saving Results
 - Detected objects and their tracking information are saved to a file, providing a summary of object counts per frame and detailed tracking data.
