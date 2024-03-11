@@ -1,6 +1,6 @@
-# VISIONARY TRACKER
+# VISIONARY TRACKER    ||  [E-posta için tıklayınız](mailto:yunussemreth@gmail.com)
 
-Bu proje, video akışlarında veya bir web kamerasından gerçek zamanlı nesne algılama ve izleme için YOLOv9 algoritmasından yararlanır. Algılama sınırlayıcı kutuları çizmek, nesne hareketlerini izlemek, görselleştirmeyi izlemek için ısı haritaları oluşturmak ve izleme sonuçlarını kaydetmek için işlevler içerir.
+*Bu proje, video akışlarında veya bir web kamerasından gerçek zamanlı nesne algılama ve izleme için YOLOv9 algoritmasından yararlanır. Algılama sınırlayıcı kutuları çizmek, nesne hareketlerini izlemek, görselleştirmeyi izlemek için ısı haritaları oluşturmak ve izleme sonuçlarını kaydetmek için işlevler içerir.*
 
 ## Eğitim 
 
