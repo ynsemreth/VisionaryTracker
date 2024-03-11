@@ -2,6 +2,12 @@
 
 This project leverages the YOLOv7 algorithm for real-time object detection and tracking in video streams or from a webcam. It includes functionalities for drawing detection bounding boxes, tracking object movements, generating heatmaps for tracking visualization, and saving tracking results.
 
+## Training 
+
+```sh
+python train.py --workers 2 --device 'cpu' --batch 4 --data C:\Users\cypoi\Masaüstü\VisionaryTracker\data\carandperson\data.yaml --img 640 --cfg C:\Users\cypoi\Masaüstü\VisionaryTracker\models\detect\gelan-c.yaml --weights 'C:\Users\cypoi\Masaüstü\VisionaryTracker\gelan-c.pt' --name kisi --hyp C:\Users\cypoi\Masaüstü\VisionaryTracker\data\hyps\hyp.scratch-high.yaml --min-items 0 --epochs 10 --close-mosaic 15
+```
+
 ## Features
 
 - **Object Detection**: Utilizes YOLOv7 for detecting objects in each frame of the video.
@@ -16,7 +22,7 @@ This project leverages the YOLOv7 algorithm for real-time object detection and t
 - The script accepts a video file path through the `--video` argument. If no path is provided, it defaults to using the webcam (`0`).
 
 ### Object Detection and Tracking
-- YOLOv7 is loaded with pre-trained weights and configured to detect objects defined in `coco.yaml`.
+- YOLOv9 is loaded with pre-trained weights and configured to detect objects defined in `data.yaml`.
 - Detected objects are tracked across frames, with their movement paths visualized.
 
 ### Single ROI Selection
@@ -83,7 +89,7 @@ python main.py --video ./videos/examples.mp4
 
 ## Conclusion
 
-This project showcases the power of YOLOv7 for real-time object detection and tracking, enhanced with heatmap visualization for movement analysis. It's adaptable for various applications, from surveillance to sports analytics.
+This project showcases the power of YOLOv9 for real-time object detection and tracking, enhanced with heatmap visualization for movement analysis. It's adaptable for various applications, from surveillance to sports analytics.
 
 # ALGORITMALAR : 
 
