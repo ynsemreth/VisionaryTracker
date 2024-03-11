@@ -1,95 +1,95 @@
 # VISIONARY TRACKER
 
-This project leverages the YOLOv9 algorithm for real-time object detection and tracking in video streams or from a webcam. It includes functionalities for drawing detection bounding boxes, tracking object movements, generating heatmaps for tracking visualization, and saving tracking results.
+Bu proje, video akışlarında veya bir web kamerasından gerçek zamanlı nesne algılama ve izleme için YOLOv9 algoritmasından yararlanır. Algılama sınırlayıcı kutuları çizmek, nesne hareketlerini izlemek, görselleştirmeyi izlemek için ısı haritaları oluşturmak ve izleme sonuçlarını kaydetmek için işlevler içerir.
 
-## Training 
+## Eğitim 
 
 ```sh
 python train.py --workers 2 --device 'cpu' --batch 4 --data C:\Users\cypoi\Masaüstü\VisionaryTracker\data\carandperson\data.yaml --img 640 --cfg C:\Users\cypoi\Masaüstü\VisionaryTracker\models\detect\gelan-c.yaml --weights 'C:\Users\cypoi\Masaüstü\VisionaryTracker\gelan-c.pt' --name kisi --hyp C:\Users\cypoi\Masaüstü\VisionaryTracker\data\hyps\hyp.scratch-high.yaml --min-items 0 --epochs 10 --close-mosaic 15
 ```
 
-## Features
+## Özellikler
 
-- **Object Detection**: Utilizes YOLOv9 for detecting objects in each frame of the video.
-- **Object Tracking**: Tracks objects across frames, visualizing their paths.
-- **Heatmap Generation**: Generates a heatmap based on the tracked paths of objects.
-- **Customizable Video Input**: Supports processing video files or live webcam streams.
-- **Result Saving**: Saves a summary of detected objects and their tracking information.
+- **Nesne Algılama**: Videonun her karesindeki nesneleri tespit etmek için YOLOv9'u kullanır.
+- **Nesne İzleme**: Nesneleri kareler boyunca izler ve yollarını görselleştirir.
+- **Isı Haritası Oluşturma**: Nesnelerin izlenen yollarına dayalı bir ısı haritası oluşturur.
+- **Özelleştirilebilir Video Girişi**: Video dosyalarını veya canlı web kamerası akışlarını işlemeyi destekler.
+- **Sonuç Kaydetme**: Algılanan nesnelerin ve izleme bilgilerinin bir özetini kaydeder.
 
-## How It Works
+## Nasıl Çalışır
 
-### Video Input Handling
-- The script accepts a video file path through the `--video` argument. If no path is provided, it defaults to using the webcam (`0`).
+### Video Girişi İşleme
+- Kod, `--video` bağımsız değişkeni aracılığıyla bir video dosyası yolunu kabul eder. Herhangi bir yol belirtilmezse, varsayılan olarak web kamerasını kullanır (`0`).
 
-### Object Detection and Tracking
-- YOLOv9 is loaded with pre-trained weights and configured to detect objects defined in `data.yaml`.
-- Detected objects are tracked across frames, with their movement paths visualized.
+### Nesne Algılama ve İzleme
+- YOLOv9 önceden eğitilmiş ağırlıklarla yüklenir ve `data.yaml` dosyasında tanımlanan nesneleri algılamak üzere yapılandırılır.
+- Algılanan nesneler, hareket yolları görselleştirilerek kareler boyunca izlenir.
 
-### Single ROI Selection
+### Tek ROI Seçimi
 
-To select a single ROI, run the project and wait for the video stream to start. Once the stream is live:
+Tek bir ROI seçmek için projeyi çalıştırın ve video akışının başlamasını bekleyin. Akış canlı olduğunda:
 
-1. Press the `s` key to enter single ROI selection mode.
-2. Click and drag the mouse over the area you wish to track.
-3. Release the mouse button to finalize the ROI.
-4. The system will now focus on detecting and tracking objects within this specified region.
+1. Tek ROI seçim moduna girmek için `s` tuşuna basın.
+2. Fareyi izlemek istediğiniz alanın üzerine tıklayın ve sürükleyin.
+3. ROI'yi sonlandırmak için fare düğmesini bırakın.
+4. Sistem artık bu belirtilen bölge içindeki nesneleri tespit etmeye ve izlemeye odaklanacaktır.
 
-This feature is particularly useful for isolating the tracking to a specific object or area in the scene, enhancing tracking accuracy and efficiency.
+Bu özellik, izlemeyi sahnedeki belirli bir nesneye veya alana izole etmek için özellikle kullanışlıdır ve izleme doğruluğunu ve verimliliğini artırır.
 
-### Multiple ROI Selection
+### Çoklu ROI Seçimi
 
-For scenarios requiring attention to several areas simultaneously, our system allows for multiple ROI selections:
+Aynı anda birkaç alana dikkat gerektiren senaryolar için sistemimiz birden fazla ROI seçimine izin vermektedir:
 
-1. Press the `f` key to initiate multiple ROI selection.
-2. For each ROI, click and drag the mouse over the desired area and release to finalize it.
-3. After selecting an ROI, press the `f` key again to continue selecting additional ROIs.
-4. To complete the selection process and start tracking, press the `g` key.
+1. Çoklu ROI seçimini başlatmak için `f` tuşuna basın.
+2. Her bir ROI için, fareyi istenen alanın üzerine tıklayıp sürükleyin ve sonlandırmak için bırakın.
+3. Bir ROI seçtikten sonra, ek ROI'ler seçmeye devam etmek için `f` tuşuna tekrar basın.
+4. Seçim işlemini tamamlamak ve izlemeye başlamak için `g` tuşuna basın.
 
-Each selected ROI will be individually monitored, enabling the detection and tracking of objects across multiple areas of interest within the same frame.
+Seçilen her ROI ayrı ayrı izlenecek ve aynı karede birden fazla ilgi alanındaki nesnelerin algılanmasına ve izlenmesine olanak sağlayacaktır.
 
-### Tips for Effective ROI Selection
+### Etkili ROI Seçimi için İpuçları
 
-- Ensure clear boundaries for each ROI to avoid overlap, which could affect tracking performance.
-- Use the multiple ROI feature judiciously, as tracking numerous areas simultaneously may increase computational load and impact performance.
-- ROI selection can be adjusted or reset at any time by re-initiating the selection process.
+- İzleme performansını etkileyebilecek çakışmaları önlemek için her bir ROI'nin sınırlarının net olduğundan emin olun.
+- Çok sayıda alanın aynı anda izlenmesi hesaplama yükünü artırabileceğinden ve performansı etkileyebileceğinden, çoklu ROI özelliğini akıllıca kullanın.
+- ROI seçimi, seçim işlemi yeniden başlatılarak herhangi bir zamanda ayarlanabilir veya sıfırlanabilir.
 
-By utilizing ROI selection, users can tailor the object detection and tracking process to specific needs, focusing computational resources on areas of interest and improving overall system efficiency.
+Kullanıcılar ROI seçimini kullanarak nesne algılama ve izleme sürecini belirli ihtiyaçlara göre uyarlayabilir, hesaplama kaynaklarını ilgili alanlara odaklayabilir ve genel sistem verimliliğini artırabilir.
 
 
-### Heatmap Visualization
-- A heatmap is generated and updated in real-time to visualize the frequency of object movements across different areas of the frame.
+### Isı Haritası Görselleştirme
+- Çerçevenin farklı alanlarındaki nesne hareketlerinin sıklığını görselleştirmek için bir ısı haritası oluşturulur ve gerçek zamanlı olarak güncellenir.
 ![Heatmap Visualization](https://github.com/ynsemreth/VisionaryTracker/blob/main/result/heatmap.jpg)
 
-### Saving Results
-- Detected objects and their tracking information are saved to a file, providing a summary of object counts per frame and detailed tracking data.
+### Sonuçları Kaydetme
+- Algılanan nesneler ve izleme bilgileri bir dosyaya kaydedilerek kare başına nesne sayılarının bir özeti ve ayrıntılı izleme verileri sağlanır.
 
-## Implementation Details
+## Uygulama Ayrıntıları
 
-### Dependencies
-- argparse, cv2 (OpenCV), numpy, and custom modules like `object_detector` and `utils.detections`.
+### Bağımlılıklar
+- argparse, cv2 (OpenCV), numpy ve `object_detector` ve `utils.detections` gibi özel modüller.
 
-### Key Functions
-- `calculate_overlap`: Calculates the Intersection over Union (IoU) to assist in tracking.
-- `save_tracking_results`: Saves tracking information to a text file.
-- `add_weighted_heat`: Updates the heatmap based on object locations.
-- Keyboard interactions (`q`, `s`, `f`, `d`) to quit, start tracking, select multiple ROIs, and disable tracking mode.
+### Anahtar Fonksiyonlar
+- `calculate_overlap`: İzlemeye yardımcı olmak için Birlik Üzerindeki Kesişimi (IoU) hesaplar.
+- `save_tracking_results`: İzleme bilgilerini bir metin dosyasına kaydeder.
+- add_weighted_heat`: Nesne konumlarına göre ısı haritasını günceller.
+- Klavye etkileşimleri (`q`, `s`, `f`, `d`) çıkmak, izlemeyi başlatmak, birden fazla ROI seçmek ve izleme modunu devre dışı bırakmak için.
 
-## Setup and Usage
+## Kurulum ve Kullanım
 
-1. Install dependencies: Ensure Python 3.x is installed along with required packages (OpenCV, NumPy).
-2. Place your YOLOv7 model weights and configuration files in the project directory.
-3. Run the script with the desired video input or leave it for webcam input:
+1. Bağımlılıkları yükleyin: Python 3.x'in gerekli paketlerle (OpenCV, NumPy) birlikte yüklendiğinden emin olun.
+2. YOLOv7 model ağırlıklarınızı ve yapılandırma dosyalarınızı proje dizinine yerleştirin.
+3. Komut dosyasını istediğiniz video girişi ile çalıştırın veya web kamerası girişi için:
 ```sh
 python main.py
 
 python main.py --video ./videos/examples.mp4
 ```
 
-4. Use keyboard commands during execution to interact with the tracking process.
+4. İzleme süreciyle etkileşim kurmak için yürütme sırasında klavye komutlarını kullanın.
 
-## Conclusion
+## Sonuç
 
-This project showcases the power of YOLOv9 for real-time object detection and tracking, enhanced with heatmap visualization for movement analysis. It's adaptable for various applications, from surveillance to sports analytics.
+Bu proje, hareket analizi için ısı haritası görselleştirmesi ile geliştirilmiş gerçek zamanlı nesne algılama ve izleme için YOLOv9'un gücünü sergiliyor. Gözetimden spor analitiğine kadar çeşitli uygulamalar için uyarlanabilir.
 
 # ALGORITMALAR : 
 
