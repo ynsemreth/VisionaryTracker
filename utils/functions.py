@@ -1,5 +1,8 @@
 import numpy as np
+import cv2 
 from collections import Counter
+from skimage.feature import hog
+
 
 def add_weighted_heat(heatmap, center_x, center_y, weight=1, size=10):
     d = np.dstack(np.mgrid[-size//2:size//2, -size//2:size//2])
@@ -14,6 +17,18 @@ def add_weighted_heat(heatmap, center_x, center_y, weight=1, size=10):
     heatmap[start_y:end_y, start_x:end_x] += g[:end_y-start_y, :end_x-start_x] * weight
 
     return heatmap
+
+frame_id = 0
+
+def save_hog_features_and_image(frame, hog_features_path, cropped_images_path):
+    global frame_id 
+    fd = hog(frame, orientations=8, pixels_per_cell=(16, 16),
+                        cells_per_block=(1, 1), visualize=True, channel_axis=-1)
+    
+    frame_id += 1
+    np.savetxt(f"{hog_features_path}/frame_{frame_id}.txt", fd , fmt='%s')
+    cv2.imwrite(f"{cropped_images_path}/frame_{frame_id}.jpg", frame)
+
 
 def save_tracking_results(detections, frame_id, file_path='./result/tracking_results_byte.txt', file_tracker=False):
     with open(file_path, 'a') as file:

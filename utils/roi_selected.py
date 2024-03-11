@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 from utils.detections import draw
-from utils.functions import add_weighted_heat,save_tracking_results,calculate_overlap
+from utils.functions import add_weighted_heat,save_tracking_results,calculate_overlap,save_hog_features_and_image
 
 lines = {}
 arrow_lines = []
@@ -64,6 +64,9 @@ def detection_object(detections,detected_frame):
 def detection_roi_single(detections,roi,detected_frame):
     global frame_id
     global tracking_id
+    
+    hog_features_path = './hog_features'
+    cropped_images_path = './cropped_images'
     if tracking_id is not None:
         detection_to_track = [d for d in detections if d.get('id') == tracking_id]
         if detection_to_track:
@@ -114,9 +117,16 @@ def detection_roi_single(detections,roi,detected_frame):
     frame_id += 1
     detection_to_draw = [detection for detection in detections if detection.get('id') == tracking_id]
     if detection_to_draw:
+        for detection in detection_to_draw:
+            x, y, w, h = detection['x'], detection['y'], detection['width'], detection['height']
+            cropped_frame = detected_frame[y:y+h, x:x+w]
+
+            save_hog_features_and_image(cropped_frame, hog_features_path, cropped_images_path)
+    
+    if detection_to_draw:
         detected_frame = draw(detected_frame, detection_to_draw,tracking_id=tracking_id)
         save_tracking_results(detection_to_draw, frame_id)
-
+    
     return detected_frame
     
 def detection_roi_multi(detections , rois,detected_frame):

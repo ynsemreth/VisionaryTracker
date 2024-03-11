@@ -11,7 +11,7 @@ import torch
 import yaml
 
 
-class YOLOv7:
+class YOLOv9:
     def __init__(self, conf_thres=0.25, iou_thres=0.45, img_size=640):
         self.settings = {
             'conf_thres':conf_thres,

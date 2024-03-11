@@ -1,19 +1,19 @@
 import cv2
 import argparse
-from models.object_detector import YOLOv7
+from models.object_detector import YOLOv9
 from utils.roi_selected import detection_object, detection_roi_single, detection_roi_multi
 
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
-def main(video_path=''):
+def main(video_path):
     roi_selected = False
     multi_roi_selection = False 
     track_mode = False 
     rois = []  
 
-    yolov7 = YOLOv7()
-    yolov7.load('./model/best.pt', classes='./model/best.yaml', device='cpu')
+    yolov9 = YOLOv9()
+    yolov9.load('./model/best.pt', classes='./model/best.yaml', device='cpu')
 
     video = cv2.VideoCapture(video_path if video_path else 0)
 
@@ -32,7 +32,7 @@ def main(video_path=''):
             print("[!] Video akışından kare alınamadı.")
             break
         
-        detections = yolov7.detect(frame, track=True)
+        detections = yolov9.detect(frame, track=True)
         detected_frame = frame
 
         if not track_mode:
@@ -40,6 +40,7 @@ def main(video_path=''):
 
         elif roi_selected and track_mode:
             frame = detection_roi_single(detections,roi,detected_frame)
+            
 
         elif multi_roi_selection and track_mode:
             frame = detection_roi_multi(detections,rois,detected_frame)
@@ -82,11 +83,13 @@ def main(video_path=''):
     video.release()
     out.release()
     cv2.destroyAllWindows()
-    yolov7.unload()
+    yolov9.unload()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='YOLOv7 ile nesne tespiti ve takibi')
     parser.add_argument('--video', type=str, default='', help='Video dosyasının yolu. Boş bırakılırsa, varsayılan kamera kullanılır.')
     args = parser.parse_args()
+
+
 
     main(args.video)
