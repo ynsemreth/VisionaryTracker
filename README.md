@@ -56,7 +56,6 @@ By utilizing ROI selection, users can tailor the object detection and tracking p
 
 ### Saving Results
 - Detected objects and their tracking information are saved to a file, providing a summary of object counts per frame and detailed tracking data.
-[View Saving Results Video](https://github.com/ynsemreth/VisionaryTracker/blob/main/output.mp4)
 
 ## Implementation Details
 
@@ -75,9 +74,9 @@ By utilizing ROI selection, users can tailor the object detection and tracking p
 2. Place your YOLOv7 model weights and configuration files in the project directory.
 3. Run the script with the desired video input or leave it for webcam input:
 ```sh
-python byteTracking.py
+python main.py
 
-python byteTracking.py --video ./videos/examples.mp4
+python main.py --video ./videos/examples.mp4
 ```
 
 4. Use keyboard commands during execution to interact with the tracking process.

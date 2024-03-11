@@ -48,12 +48,12 @@ def linear_assignment(cost_matrix, thresh):
     return matches, unmatched_a, unmatched_b
 
 def ious(atlbrs, btlbrs):
-    ious = np.zeros((len(atlbrs), len(btlbrs)), dtype=np.float)
+    ious = np.zeros((len(atlbrs), len(btlbrs)), dtype=np.float64)
     
     if ious.size == 0:
         return ious
 
-    ious = bbox_ious(np.ascontiguousarray(atlbrs, dtype=np.float), np.ascontiguousarray(btlbrs, dtype=np.float))
+    ious = bbox_ious(np.ascontiguousarray(atlbrs, dtype=np.float64), np.ascontiguousarray(btlbrs, dtype=np.float64))
     return ious
 
 def iou_distance(atracks, btracks):
@@ -80,13 +80,13 @@ def v_iou_distance(atracks, btracks):
     return cost_matrix
 
 def embedding_distance(tracks, detections, metric="cosine"):
-    cost_matrix = np.zeros((len(tracks), len(detections)), dtype=np.float)
+    cost_matrix = np.zeros((len(tracks), len(detections)), dtype=np.float64)
     
     if cost_matrix.size == 0:
         return cost_matrix
     
-    det_features = np.asarray([track.curr_feat for track in detections], dtype=np.float)
-    track_features = np.asarray([track.smooth_feat for track in tracks], dtype=np.float)
+    det_features = np.asarray([track.curr_feat for track in detections], dtype=np.float64)
+    track_features = np.asarray([track.smooth_feat for track in tracks], dtype=np.float64)
     cost_matrix = np.maximum(0.0, cdist(track_features, det_features, metric))
     return cost_matrix
 

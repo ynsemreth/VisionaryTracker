@@ -9,7 +9,7 @@ class STrack(BaseTrack):
     shared_kalman = KalmanFilter()  # Tüm STrack nesneleri tarafından paylaşılan ortak bir Kalman filtresi örneği
 
     def __init__(self, tlwh, score, cls):
-        self._tlwh = np.asarray(tlwh, dtype=np.float)  # Takip nesnesinin başlangıç konumu (top-left width height formatında)
+        self._tlwh = np.asarray(tlwh, dtype=np.float64)  # Takip nesnesinin başlangıç konumu (top-left width height formatında)
         self.kalman_filter = None  # Nesneye özgü Kalman filtresi (başlangıçta None)
         self.mean, self.covariance = None, None  # Kalman filtresinin durum vektörü ve kovaryans matrisi
         self.is_activated = False  # İz aktif edildi mi?

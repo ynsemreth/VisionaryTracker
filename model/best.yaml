@@ -1,0 +1,9 @@
+classes:
+  - name: ball
+    color: '#00ffc3'
+  - name: goalkeeper
+    color: '#00ffc3'
+  - name: player
+    color: '#00ffc3'
+  - name: referee
+    color: '#00ffc3'

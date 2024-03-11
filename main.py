@@ -13,7 +13,7 @@ def main(video_path=''):
     rois = []  
 
     yolov7 = YOLOv7()
-    yolov7.load('./model/model.pt', classes='./model/coco.yaml', device='cpu')
+    yolov7.load('./model/best.pt', classes='./model/best.yaml', device='cpu')
 
     video = cv2.VideoCapture(video_path if video_path else 0)
 
