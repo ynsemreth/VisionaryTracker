@@ -2,11 +2,13 @@ import cv2
 import argparse
 from models.object_detector import YOLOv9
 from utils.roi_selected import detection_object, detection_roi_single, detection_roi_multi
+from utils.logo import print_logo
 
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 def main(video_path):
+    print_logo()
     roi_selected = False
     multi_roi_selection = False 
     track_mode = False 
@@ -45,7 +47,7 @@ def main(video_path):
         elif multi_roi_selection and track_mode:
             frame = detection_roi_multi(detections,rois,detected_frame)
 
-        cv2.imshow('ByteTracker', frame)
+        cv2.imshow('VisionaryTrack', frame)
         out.write(frame)
 
         key = cv2.waitKey(1) & 0xFF
@@ -53,14 +55,14 @@ def main(video_path):
             break
         
         elif key == ord('s') and not roi_selected:
-            roi = cv2.selectROI("ByteTracker", frame, False)
+            roi = cv2.selectROI("VisionaryTrack", frame, False)
             print(f"Çizilen Roi'nin Koordinatları: {roi}")
             if roi[2] > 0 and roi[3] > 0: 
                 roi_selected = True
                 track_mode = True
         elif key == ord('f'):  
             while True:  
-                roi = cv2.selectROI("ByteTracker", frame, False)
+                roi = cv2.selectROI("VisionaryTrack", frame, False)
                 if roi[2] > 0 and roi[3] > 0:  
                     rois.append(roi)
                     print(f"Çizilen Roi'nin Koordinatları: {roi}")
@@ -89,7 +91,5 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='YOLOv7 ile nesne tespiti ve takibi')
     parser.add_argument('--video', type=str, default='', help='Video dosyasının yolu. Boş bırakılırsa, varsayılan kamera kullanılır.')
     args = parser.parse_args()
-
-
 
     main(args.video)

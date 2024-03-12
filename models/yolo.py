@@ -498,7 +498,7 @@ class BaseModel(nn.Module):
             LOGGER.info(f"{sum(dt):10.2f} {'-':>10s} {'-':>10s}  Total")
 
     def fuse(self):  # fuse model Conv2d() + BatchNorm2d() layers
-        LOGGER.info('Fusing layers... ')
+        
         for m in self.model.modules():
             if isinstance(m, (RepConvN)) and hasattr(m, 'fuse_convs'):
                 m.fuse_convs()

@@ -1156,9 +1156,6 @@ class Detections:
         #        setattr(d, k, getattr(d, k)[0])  # pop out of list
         return x
 
-    def print(self):
-        LOGGER.info(self.__str__())
-
     def __len__(self):  # override len(results)
         return self.n
 
