@@ -7,7 +7,6 @@ import torch
 from torch.utils.tensorboard import SummaryWriter
 
 from utils.general import LOGGER, colorstr, cv2
-from utils.loggers.clearml.clearml_utils import ClearmlLogger
 from utils.loggers.wandb.wandb_utils import WandbLogger
 from utils.plots import plot_images, plot_labels, plot_results
 from utils.torch_utils import de_parallel
@@ -58,17 +57,10 @@ class Loggers():
             setattr(self, k, None)  # init empty logger dictionary
         self.csv = True  # always log to csv
 
-        # Messages
-        # if not wandb:
-        #     prefix = colorstr('Weights & Biases: ')
-        #     s = f"{prefix}run 'pip install wandb' to automatically track and visualize YOLO 🚀 runs in Weights & Biases"
-        #     self.logger.info(s)
-        # TensorBoard
         s = self.save_dir
         if 'tb' in self.include and not self.opt.evolve:
             prefix = colorstr('TensorBoard: ')
             self.logger.info(f"{prefix}Start with 'tensorboard --logdir {s.parent}', view at http://localhost:6006/")
-            #self.tb = SummaryWriter(str(s))
 
         # W&B
         if wandb and 'wandb' in self.include:
@@ -76,16 +68,12 @@ class Loggers():
             run_id = torch.load(self.weights).get('wandb_id') if self.opt.resume and not wandb_artifact_resume else None
             self.opt.hyp = self.hyp  # add hyperparameters
             self.wandb = WandbLogger(self.opt, run_id)
-            # temp warn. because nested artifacts not supported after 0.12.10
-            # if pkg.parse_version(wandb.__version__) >= pkg.parse_version('0.12.11'):
-            #    s = "YOLO temporarily requires wandb version 0.12.10 or below. Some features may not work as expected."
-            #    self.logger.warning(s)
         else:
             self.wandb = None
 
     @property
     def remote_dataset(self):
-        # Get data_dict if custom dataset artifact link is provided
+    
         data_dict = None
         if self.wandb:
             data_dict = self.wandb.data_dict
@@ -93,47 +81,44 @@ class Loggers():
         return data_dict
 
     def on_pretrain_routine_end(self, labels, names):
-        # Callback runs on pre-train routine end
+      
         if self.plots:
             plot_labels(labels, names, self.save_dir)
             paths = self.save_dir.glob('*labels*.jpg')  # training labels
             if self.wandb:
                 self.wandb.log({"Labels": [wandb.Image(str(x), caption=x.name) for x in paths]})
-            # if self.clearml:
-            #    pass  # ClearML saves these images automatically using hooks
-    
+            
     def on_train_batch_end(self, model, ni, imgs, targets, paths, vals):
-        log_dict = dict(zip(self.keys[0:3], vals))
-        # Callback runs on train batch end
-        # ni: number integrated batches (since train start)
         if self.plots:
             if ni < 3:
                 f = self.save_dir / f'train_batch{ni}.jpg'  # filename
                 plot_images(imgs, targets, paths, f)
                 if ni == 0 and self.tb and not self.opt.sync_bn:
                     log_tensorboard_graph(self.tb, model, imgsz=(self.opt.imgsz, self.opt.imgsz))
-            if ni == 10 and (self.wandb or self.clearml):
+            if ni == 10 and (self.wandb):
                 files = sorted(self.save_dir.glob('train*.jpg'))
                 if self.wandb:
                     self.wandb.log({'Mosaics': [wandb.Image(str(f), caption=f.name) for f in files if f.exists()]})
-
-
+                
     def on_train_epoch_end(self, epoch):
         # Callback runs on train epoch end
         if self.wandb:
             self.wandb.current_epoch = epoch + 1
+
 
     def on_val_image_end(self, pred, predn, path, names, im):
         # Callback runs on val image end
         if self.wandb:
             self.wandb.val_one_image(pred, predn, path, names, im)
 
+
     def on_val_end(self, nt, tp, fp, p, r, f1, ap, ap50, ap_class, confusion_matrix):
-        # Callback runs on val end
-        if self.wandb:
+       
+        if self.wandb :
             files = sorted(self.save_dir.glob('val*.jpg'))
             if self.wandb:
                 self.wandb.log({"Validation": [wandb.Image(str(f), caption=f.name) for f in files]})
+
 
     def on_fit_epoch_end(self, vals, epoch, best_fitness, fi):
         # Callback runs at the end of each fit (train+val) epoch
@@ -148,7 +133,7 @@ class Loggers():
         if self.tb:
             for k, v in x.items():
                 self.tb.add_scalar(k, v, epoch)
-
+       
         if self.wandb:
             if best_fitness == fi:
                 best_results = [epoch] + vals[3:7]
@@ -162,7 +147,8 @@ class Loggers():
         if (epoch + 1) % self.opt.save_period == 0 and not final_epoch and self.opt.save_period != -1:
             if self.wandb:
                 self.wandb.log_model(last.parent, self.opt, epoch, fi, best_model=best_fitness == fi)
-
+           
+           
     def on_train_end(self, last, best, epoch, results):
         # Callback runs on training end, i.e. saving best model
         if self.plots:
@@ -171,7 +157,7 @@ class Loggers():
         files = [(self.save_dir / f) for f in files if (self.save_dir / f).exists()]  # filter
         self.logger.info(f"Results saved to {colorstr('bold', self.save_dir)}")
 
-        if self.tb and not self.clearml:  # These images are already captured by ClearML by now, we don't want doubles
+        if self.tb:  # These images are already captured by ClearML by now, we don't want doubles
             for f in files:
                 self.tb.add_image(f.stem, cv2.imread(str(f))[..., ::-1], epoch, dataformats='HWC')
 
@@ -190,6 +176,8 @@ class Loggers():
         # Update hyperparams or configs of the experiment
         if self.wandb:
             self.wandb.wandb_run.config.update(params, allow_val_change=True)
+        if self.comet_logger:
+            self.comet_logger.on_params_update(params)
 
 
 class GenericLogger:
