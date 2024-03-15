@@ -881,6 +881,13 @@ def clip_segments(segments, shape):
         segments[:, 0] = segments[:, 0].clip(0, shape[1])  # x
         segments[:, 1] = segments[:, 1].clip(0, shape[0])  # y
 
+def crop(image, detection):
+    x = detection['x']
+    y = detection['y']
+    width = detection['width']
+    height = detection['height']
+    return image[y:y+height, x:x+width]
+
 
 def non_max_suppression(
         prediction,

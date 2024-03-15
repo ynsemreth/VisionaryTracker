@@ -1,10 +1,10 @@
 import warnings
 warnings.filterwarnings('ignore')
-from utils.general import check_img_size, non_max_suppression, scale_coords
+from utils.general import check_img_size, non_max_suppression, scale_boxes
 from utils.torch_utils import select_device
 from models.experimental import attempt_load
-from utils.detections import Detections
-from utils.datasets import letterbox
+from byte_track_Utils.datasets import letterbox
+from byte_track_Utils.detections import Detections
 from byte_tracker import BYTETracker
 import numpy as np
 import torch
@@ -67,7 +67,7 @@ class YOLOv9:
 
             for det in pred:
                 if len(det) > 0:
-                    det[:, :4] = scale_coords(img.shape[2:], det[:, :4], im0.shape).round()
+                    det[:, :4] = scale_boxes(img.shape[2:], det[:, :4], im0.shape).round()
                     for *xyxy, conf, cls in reversed(det):
                         raw_detection = np.concatenate((raw_detection, [[int(xyxy[0]), int(xyxy[1]), int(xyxy[2]), int(xyxy[3]), round(float(conf), 2), int(cls)]]))
 

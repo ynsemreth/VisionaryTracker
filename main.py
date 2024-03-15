@@ -15,7 +15,7 @@ def main(video_path):
     rois = []  
 
     yolov9 = YOLOv9()
-    yolov9.load('./model/best.pt', classes='./model/best.yaml', device='cpu')
+    yolov9.load('./model/carandperson/best.pt', classes='./model/carandperson/best.yaml', device='cpu')
 
     video = cv2.VideoCapture(video_path if video_path else 0)
 
@@ -28,6 +28,9 @@ def main(video_path):
 
     print('[+] Video takip ediliyor...\n')
 
+    frame_height = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
+    frame_width = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
+    
     while True:
         ret, frame = video.read()
         if not ret:
@@ -38,7 +41,7 @@ def main(video_path):
         detected_frame = frame
 
         if not track_mode:
-            frame = detection_object(detections,detected_frame)
+            frame = detection_object(detections,detected_frame,frame_height,frame_width)
 
         elif roi_selected and track_mode:
             frame = detection_roi_single(detections,roi,detected_frame)

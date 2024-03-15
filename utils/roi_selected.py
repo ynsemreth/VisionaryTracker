@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-from utils.detections import draw
+from byte_track_Utils.detections import draw
 from utils.functions import add_weighted_heat,save_tracking_results,calculate_overlap,save_hog_features_and_image
 
 lines = {}
@@ -12,10 +12,9 @@ frame_id = 0
 heatmap_accumulator = None
 
 
-def detection_object(detections,detected_frame):
+def detection_object(detections,detected_frame,frame_height,frame_width):
     global frame_id
     global heatmap_accumulator
-    frame_width, frame_height = int(1280), int(720)
     if heatmap_accumulator is None:
         heatmap_accumulator = np.zeros((frame_height, frame_width), dtype=np.float32)
     for detection in detections:
