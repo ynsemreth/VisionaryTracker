@@ -11,16 +11,12 @@ tracking_id = None
 frame_id = 0
 heatmap_accumulator = None
 
-
-def detection_object(detections,detected_frame,frame_height,frame_width):
-    global frame_id
+def line_function(detection,detected_frame,frame_height,frame_width):
     global heatmap_accumulator
     if heatmap_accumulator is None:
         heatmap_accumulator = np.zeros((frame_height, frame_width), dtype=np.float32)
-    for detection in detections:
-        color = (np.random.randint(0,255), np.random.randint(0,255), np.random.randint(0,255))
-                
-        if 'id' in detection:
+    color = (np.random.randint(0,255), np.random.randint(0,255), np.random.randint(0,255))
+    if 'id' in detection:
             detection_id = detection['id']
 
             if detection_id not in lines:
@@ -43,16 +39,24 @@ def detection_object(detections,detected_frame,frame_height,frame_width):
                     distance = 0
                     arrow_lines.append({'start':points[-2], 'end':points[-1]})
                         
-        x_center = detection['x'] + detection['width'] // 2
-        y_center = detection['y'] + detection['height'] // 2
-        heatmap_accumulator = add_weighted_heat(heatmap_accumulator, x_center, y_center, weight=1, size=20)     
-
+            x_center = detection['x'] + detection['width'] // 2
+            y_center = detection['y'] + detection['height'] // 2
+            heatmap_accumulator = add_weighted_heat(heatmap_accumulator, x_center, y_center, weight=1, size=20)
+    heatmap(heatmap_accumulator)
+    
     for line in lines.values():
         arrow_lines = line['arrows']
         for arrow_line in arrow_lines:
-            detected_frame = cv2.arrowedLine(detected_frame, arrow_line['start'], arrow_line['end'], line['color'], 2, line_type=cv2.LINE_AA)
-
-    heatmap(heatmap_accumulator)
+            detected_frame = cv2.arrowedLine(detected_frame, arrow_line['start'], arrow_line['end'], line['color'], 2, line_type=cv2.LINE_AA) 
+    
+    return detected_frame
+    
+    
+def detection_object(detections,detected_frame,frame_height,frame_width):
+    global frame_id
+    for detection in detections:
+        detected_frame = line_function(detection,detected_frame,frame_height,frame_width)
+                
     frame_id += 1
     detected_frame = draw(detected_frame, detections)
 
@@ -60,12 +64,15 @@ def detection_object(detections,detected_frame,frame_height,frame_width):
 
     return detected_frame 
 
-def detection_roi_single(detections,roi,detected_frame):
+def detection_roi_single(detections,roi,detected_frame,frame_height,frame_width):
     global frame_id
     global tracking_id
-    
-    hog_features_path = './hog_features'
-    cropped_images_path = './cropped_images'
+    global heatmap_accumulator
+    if heatmap_accumulator is None:
+        heatmap_accumulator = np.zeros((frame_height, frame_width), dtype=np.float32)
+    hog_features_path = './hog/single_track/hog_features/'
+    cropped_images_path = './hog/single_track/cropped_images_hog/'
+    hog_exract_path = './hog/single_track/hog_images/'
     if tracking_id is not None:
         detection_to_track = [d for d in detections if d.get('id') == tracking_id]
         if detection_to_track:
@@ -107,7 +114,9 @@ def detection_roi_single(detections,roi,detected_frame):
                     arrow_lines.append({'start': start, 'end': points[-1]})
             else:
                 arrow_lines.append({'start': points[-2], 'end': points[-1]})
-            
+        
+        heatmap_accumulator = add_weighted_heat(heatmap_accumulator, x_center, y_center, weight=1, size=20)   
+        
     for line_key, line_value in lines.items():
         if line_key == tracking_id: 
             arrow_lines = line_value['arrows']
@@ -120,19 +129,22 @@ def detection_roi_single(detections,roi,detected_frame):
             x, y, w, h = detection['x'], detection['y'], detection['width'], detection['height']
             cropped_frame = detected_frame[y:y+h, x:x+w]
 
-            save_hog_features_and_image(cropped_frame, hog_features_path, cropped_images_path)
-    
+            save_hog_features_and_image(cropped_frame, hog_features_path, cropped_images_path,hog_exract_path)
+    heatmap(heatmap_accumulator)
     if detection_to_draw:
         detected_frame = draw(detected_frame, detection_to_draw,tracking_id=tracking_id)
         save_tracking_results(detection_to_draw, frame_id)
     
     return detected_frame
     
-def detection_roi_multi(detections , rois,detected_frame):
-
-    initial_tracker_ids = {}  
+def detection_roi_multi(detections, rois, detected_frame, frame_height, frame_width):
+    global heatmap_accumulator
+    if heatmap_accumulator is None:
+        heatmap_accumulator = np.zeros((frame_height, frame_width), dtype=np.float32)
+        
+    initial_tracker_ids = {}
     tracker_ids = {}
-
+    
     for roi_index, roi in enumerate(rois):
         best_overlap = 0
         best_detection = None
@@ -143,14 +155,17 @@ def detection_roi_multi(detections , rois,detected_frame):
                 best_detection = detection
     
         if best_detection:
-            if roi_index not in initial_tracker_ids:
-                initial_tracker_ids[roi_index] = best_detection['id']
-            tracking_id = initial_tracker_ids[roi_index] 
-            best_detection['id'] = tracking_id 
+            tracking_id = initial_tracker_ids.get(roi_index, None)
+            if tracking_id is None:
+                tracking_id = best_detection['id']
+                initial_tracker_ids[roi_index] = tracking_id
+            else:
+                best_detection['id'] = tracking_id
+            
             tracker_ids[roi_index] = best_detection
 
             if tracking_id not in lines:
-                color = (np.random.randint(0,255), np.random.randint(0,255), np.random.randint(0,255))
+                color = (np.random.randint(0, 255), np.random.randint(0, 255), np.random.randint(0, 255))
                 best_detection['color'] = color
                 lines[tracking_id] = {'points': [], 'arrows': [], 'color': color}
             else:
@@ -182,6 +197,7 @@ def detection_roi_multi(detections , rois,detected_frame):
 
     return detected_frame
 
+
 def heatmap(heatmap_accumulator):
 
     heatmap_blurred = cv2.GaussianBlur(heatmap_accumulator, (51, 51), 0)
@@ -189,3 +205,19 @@ def heatmap(heatmap_accumulator):
     heatmap_color = cv2.applyColorMap(heatmap_normalized.astype(np.uint8), cv2.COLORMAP_JET)
 
     cv2.imwrite('./result/heatmap.jpg', heatmap_color)
+    
+    
+    
+# Kodunuzda initial_tracker_ids ve tracker_ids adında iki farklı sözlük kullanıyorsunuz.
+# initial_tracker_ids, başlangıçta takip edilen nesnelerin kimliklerini saklar, tracker_ids ise mevcut karedeki tespit edilen nesnelerin kimliklerini saklar.
+# Kodumuza bakarak, her bir roi için bir tane tracker kimliği atanmasını beklersiniz. 
+# Ancak, kodunuzda bu işlevsellik yerine, her bir roi için en iyi örtüşen tespiti seçip bir initial_tracker_ids sözlüğüne ekleyip, 
+# sonra her bir tespiti ayrı ayrı tracker_ids sözlüğüne ekliyorsunuz. Bu nedenle, aynı nesneyi takip eden farklı tespitler için farklı kimlikler atanabilir.
+
+# tracker_ids sözlüğüne yeni bir tespit eklerken, tüm mevcut tespitleri yazdırıyorsunuz. 
+# Bu, her döngü adımında tracker_ids sözlüğünün tamamını yazdırmanıza neden olur. 
+# Her döngü adımında yalnızca bir tespitin eklenmesi gerektiğini varsayarsak, bu çıktı gereksiz olabilir.
+
+# Döngü içinde, her bir roi için en iyi tespit seçilirken, bu tespitin bir kimliği olup olmadığını kontrol ediyorsunuz. 
+# Eğer yoksa, best_detection['id'] değeri None olarak atanır ve daha sonra tracker_ids sözlüğüne eklenir. 
+# Ancak, initial_tracker_ids sözlüğüne eklenmez. Bu, initial_tracker_ids sözlüğünün her zaman boş kalmasına neden olabilir.

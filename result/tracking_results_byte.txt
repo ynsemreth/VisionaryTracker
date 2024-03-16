@@ -708,3 +708,2811 @@ Frame 338: person: 25
 Frame 339: person: 25
 Frame 340: person: 26
 Frame 341: person: 26
+Frame 1: person: 1
+Frame 2: person: 1
+Frame 3: person: 1
+Frame 4: person: 1
+Frame 5: person: 1
+Frame 6: person: 1
+Frame 7: person: 1
+Frame 8: person: 1
+Frame 9: person: 1
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 7: person: 31
+Frame 8: person: 31
+Frame 9: person: 31
+Frame 10: person: 30
+Frame 11: person: 31
+Frame 12: person: 31
+Frame 13: person: 31
+Frame 14: person: 31
+Frame 15: person: 30
+Frame 16: person: 30
+Frame 17: person: 31
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 1
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 7: person: 31
+Frame 8: person: 31
+Frame 9: person: 31
+Frame 10: person: 30
+Frame 11: person: 31
+Frame 12: person: 31
+Frame 13: person: 31
+Frame 14: person: 31
+Frame 15: person: 30
+Frame 16: person: 30
+Frame 17: person: 31
+Frame 18: person: 1
+Frame 19: person: 1
+Frame 20: person: 1
+Frame 21: person: 1
+Frame 22: person: 1
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 1
+Frame 6: person: 1
+Frame 7: person: 1
+Frame 8: person: 1
+Frame 9: person: 1
+Frame 10: person: 1
+Frame 11: person: 1
+Frame 12: person: 1
+Frame 13: person: 1
+Frame 14: person: 1
+Frame 15: person: 1
+Frame 16: person: 1
+Frame 17: person: 1
+Frame 18: person: 1
+Frame 19: person: 1
+Frame 20: person: 1
+Frame 21: person: 1
+Frame 22: person: 1
+Frame 23: person: 1
+Frame 24: person: 1
+Frame 25: person: 1
+Frame 26: person: 1
+Frame 27: person: 1
+Frame 28: person: 1
+Frame 29: person: 1
+Frame 30: person: 1
+Frame 31: person: 1
+Frame 32: person: 1
+Frame 33: person: 1
+Frame 34: person: 1
+Frame 35: person: 1
+Frame 36: person: 1
+Frame 37: person: 1
+Frame 38: person: 1
+Frame 39: person: 1
+Frame 40: person: 1
+Frame 41: person: 1
+Frame 42: person: 1
+Frame 43: person: 1
+Frame 44: person: 1
+Frame 45: person: 1
+Frame 46: person: 1
+Frame 47: person: 1
+Frame 48: person: 1
+Frame 49: person: 1
+Frame 50: person: 1
+Frame 51: person: 1
+Frame 52: person: 1
+Frame 53: person: 1
+Frame 54: person: 1
+Frame 55: person: 1
+Frame 56: person: 1
+Frame 57: person: 1
+Frame 58: person: 1
+Frame 59: person: 1
+Frame 60: person: 1
+Frame 61: person: 1
+Frame 62: person: 1
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 7: person: 31
+Frame 8: person: 1
+Frame 9: person: 1
+Frame 10: person: 1
+Frame 11: person: 1
+Frame 12: person: 1
+Frame 13: person: 1
+Frame 14: person: 1
+Frame 15: person: 1
+Frame 16: person: 1
+Frame 17: person: 1
+Frame 18: person: 1
+Frame 19: person: 1
+Frame 20: person: 1
+Frame 21: person: 1
+Frame 22: person: 1
+Frame 23: person: 1
+Frame 24: person: 1
+Frame 25: person: 1
+Frame 26: person: 1
+Frame 27: person: 1
+Frame 28: person: 1
+Frame 29: person: 1
+Frame 30: person: 1
+Frame 31: person: 1
+Frame 32: person: 1
+Frame 33: person: 1
+Frame 34: person: 1
+Frame 35: person: 1
+Frame 36: person: 1
+Frame 37: person: 1
+Frame 38: person: 1
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 7: person: 31
+Frame 8: person: 1
+Frame 9: person: 1
+Frame 10: person: 1
+Frame 11: person: 1
+Frame 12: person: 1
+Frame 13: person: 1
+Frame 14: person: 1
+Frame 15: person: 1
+Frame 16: person: 1
+Frame 17: person: 1
+Frame 18: person: 1
+Frame 19: person: 1
+Frame 20: person: 1
+Frame 21: person: 1
+Frame 22: person: 1
+Frame 23: person: 1
+Frame 24: person: 1
+Frame 25: person: 1
+Frame 26: person: 1
+Frame 27: person: 1
+Frame 28: person: 1
+Frame 29: person: 1
+Frame 30: person: 1
+Frame 31: person: 1
+Frame 32: person: 1
+Frame 33: person: 1
+Frame 34: person: 1
+Frame 35: person: 1
+Frame 36: person: 1
+Frame 37: person: 1
+Frame 38: person: 1
+Frame 39: person: 1
+Frame 40: person: 1
+Frame 41: person: 1
+Frame 42: person: 1
+Frame 43: person: 1
+Frame 44: person: 1
+Frame 45: person: 1
+Frame 46: person: 1
+Frame 47: person: 1
+Frame 48: person: 1
+Frame 49: person: 1
+Frame 50: person: 1
+Frame 51: person: 1
+Frame 52: person: 1
+Frame 53: person: 1
+Frame 54: person: 1
+Frame 55: person: 1
+Frame 56: person: 1
+Frame 57: person: 1
+Frame 58: person: 1
+Frame 59: person: 1
+Frame 60: person: 1
+Frame 61: person: 1
+Frame 62: person: 1
+Frame 63: person: 1
+Frame 64: person: 1
+Frame 65: person: 1
+Frame 66: person: 1
+Frame 67: person: 1
+Frame 68: person: 1
+Frame 69: person: 1
+Frame 70: person: 1
+Frame 71: person: 1
+Frame 72: person: 1
+Frame 73: person: 1
+Frame 74: person: 1
+Frame 75: person: 1
+Frame 76: person: 1
+Frame 77: person: 1
+Frame 78: person: 1
+Frame 79: person: 1
+Frame 80: person: 1
+Frame 81: person: 1
+Frame 82: person: 1
+Frame 83: person: 1
+Frame 84: person: 1
+Frame 85: person: 1
+Frame 86: person: 1
+Frame 87: person: 1
+Frame 88: person: 1
+Frame 89: person: 1
+Frame 90: person: 1
+Frame 91: person: 1
+Frame 92: person: 1
+Frame 93: person: 1
+Frame 94: person: 1
+Frame 95: person: 1
+Frame 96: person: 1
+Frame 97: person: 1
+Frame 98: person: 1
+Frame 99: person: 1
+Frame 100: person: 1
+Frame 101: person: 1
+Frame 102: person: 1
+Frame 103: person: 1
+Frame 104: person: 1
+Frame 105: person: 1
+Frame 106: person: 1
+Frame 107: person: 1
+Frame 108: person: 1
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 7: person: 31
+Frame 8: person: 31
+Frame 9: person: 31
+Frame 10: person: 30
+Frame 11: person: 31
+Frame 12: person: 31
+Frame 13: person: 31
+Frame 14: person: 31
+Frame 15: person: 30
+Frame 16: person: 30
+Frame 17: person: 31
+Frame 18: person: 31
+Frame 19: person: 31
+Frame 20: person: 30
+Frame 21: person: 30
+Frame 22: person: 30
+Frame 23: person: 30
+Frame 24: person: 30
+Frame 25: person: 30
+Frame 26: person: 31
+Frame 27: person: 31
+Frame 28: person: 31
+Frame 29: person: 31
+Frame 30: person: 31
+Frame 31: person: 31
+Frame 32: person: 31
+Frame 33: person: 31
+Frame 34: person: 31
+Frame 35: person: 32
+Frame 36: person: 32
+Frame 37: person: 32
+Frame 38: person: 32
+Frame 39: person: 33
+Frame 40: person: 33
+Frame 41: person: 33
+Frame 42: person: 34
+Frame 43: person: 35
+Frame 44: person: 35
+Frame 45: person: 34
+Frame 46: person: 32
+Frame 47: person: 32
+Frame 48: person: 33
+Frame 49: person: 33
+Frame 50: person: 32
+Frame 51: person: 33
+Frame 52: person: 33
+Frame 53: person: 33
+Frame 54: person: 33
+Frame 55: person: 32
+Frame 56: person: 33
+Frame 57: person: 33
+Frame 58: person: 33
+Frame 59: person: 33
+Frame 60: person: 33
+Frame 61: person: 33
+Frame 62: person: 33
+Frame 63: person: 33
+Frame 64: person: 33
+Frame 65: person: 33
+Frame 66: person: 33
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 3, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 313, 38, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 311, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 308, 36, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 305, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 303, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 300, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 298, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 296, 40, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 294, 40, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 292, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 290, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 287, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 284, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 282, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 278, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 2, ID: 17, Class: person, BBox: 568, 246, 33, 76
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 703, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 335, 317, 38, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 336, 313, 38, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 337, 311, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 308, 36, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 305, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 303, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 300, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 298, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 337, 296, 40, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 337, 294, 40, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 337, 292, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 336, 290, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 336, 287, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 335, 284, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 336, 282, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 337, 278, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 336, 275, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 336, 273, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 336, 271, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 336, 270, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 335, 268, 37, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 334, 265, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 334, 263, 38, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 335, 261, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 747, 276, 45, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 335, 259, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 749, 280, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 336, 257, 36, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 208, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 254, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 206, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 753, 283, 43, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 339, 252, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 205, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 339, 249, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 203, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 756, 285, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 339, 247, 35, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 571, 202, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 288, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 201, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 290, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 200, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 755, 292, 46, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 339, 243, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 199, 33, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 756, 294, 46, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 242, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 199, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 296, 45, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 241, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 571, 198, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 300, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 239, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 197, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 760, 303, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 337, 236, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 196, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 762, 305, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 337, 234, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 195, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 764, 306, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 24, Class: person, BBox: 338, 232, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 574, 194, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 767, 307, 44, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 577, 191, 29, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 578, 190, 28, 66
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 579, 188, 28, 66
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 580, 188, 28, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 187, 28, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 185, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 185, 30, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 184, 30, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 580, 183, 32, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 580, 182, 32, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 579, 180, 33, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 580, 179, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 579, 177, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3: person: 33
+Frame 4: person: 33
+Frame 5: person: 33
+Frame 6: person: 33
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 5, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 558, 457, 64, 82
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 308, 36, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 557, 455, 64, 84
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 305, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 554, 450, 67, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 303, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 551, 445, 69, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 300, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 550, 442, 70, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 298, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 550, 439, 69, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 337, 296, 40, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 549, 437, 69, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 337, 294, 40, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 546, 433, 69, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 337, 292, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 544, 431, 68, 104
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 336, 290, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 542, 429, 69, 106
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 336, 287, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 542, 426, 68, 109
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 335, 284, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 541, 425, 68, 110
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 336, 282, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 540, 419, 67, 112
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 337, 278, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 542, 416, 64, 110
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 336, 275, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 544, 413, 61, 108
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 336, 273, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 546, 411, 58, 105
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 336, 271, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 548, 408, 55, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 336, 270, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 550, 403, 52, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 335, 268, 37, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 550, 400, 52, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 334, 265, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 549, 398, 52, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 334, 263, 38, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 549, 396, 52, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 335, 261, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 652, 352, 53, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 548, 394, 52, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 335, 259, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 649, 351, 50, 84
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 546, 391, 54, 103
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 336, 257, 36, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 546, 389, 53, 105
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 254, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 753, 283, 43, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 546, 388, 53, 105
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 339, 252, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 545, 385, 53, 106
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 339, 249, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 756, 285, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 546, 383, 52, 106
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 339, 247, 35, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 757, 288, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 546, 378, 51, 104
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 757, 290, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 548, 376, 48, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 755, 292, 46, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 549, 374, 47, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 339, 243, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 756, 294, 46, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 550, 370, 46, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 242, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 757, 296, 45, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 549, 368, 46, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 241, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 757, 300, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 548, 365, 46, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 239, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 760, 303, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 546, 364, 47, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 337, 236, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 762, 305, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 544, 363, 47, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 337, 234, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 12, Class: person, BBox: 764, 306, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 542, 361, 48, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 232, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 25, Class: person, BBox: 540, 360, 47, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 339, 230, 33, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 36, Class: person, BBox: 526, 504, 43, 36
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 339, 227, 33, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 36, Class: person, BBox: 523, 501, 45, 39
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 225, 34, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 36, Class: person, BBox: 519, 499, 48, 41
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 223, 34, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 36, Class: person, BBox: 517, 497, 50, 43
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 222, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 36, Class: person, BBox: 514, 494, 53, 46
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 221, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 36, Class: person, BBox: 508, 489, 57, 51
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 219, 34, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 36, Class: person, BBox: 505, 486, 60, 54
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 24, Class: person, BBox: 338, 218, 34, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 36, Class: person, BBox: 502, 482, 62, 58
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 36, Class: person, BBox: 500, 478, 64, 62
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 6: person: 33
+Frame 7: person: 33
+Frame 8: person: 33
+Frame 9: person: 32
+Frame 10: person: 33
+Frame 11: person: 33
+Frame 12: person: 33
+Frame 13: person: 33
+Frame 14: person: 33
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 3, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 313, 38, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 311, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 308, 36, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 305, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 303, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 300, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 298, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 296, 40, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 294, 40, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 292, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 290, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 287, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 284, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 282, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 278, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 275, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 273, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 271, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 270, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 268, 37, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 265, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 263, 38, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 261, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 652, 352, 53, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 259, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 749, 280, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 257, 36, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 208, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 254, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 753, 283, 43, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 206, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 252, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 205, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 249, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 7: person: 32
+Frame 8: person: 32
+Frame 9: person: 32
+Frame 10: person: 32
+Frame 11: person: 33
+Frame 12: person: 33
+Frame 13: person: 33
+Frame 14: person: 34
+Frame 15: person: 35
+Frame 16: person: 35
+Frame 17: person: 34
+Frame 18: person: 32
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 3, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 313, 38, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 311, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 308, 36, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 305, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 303, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 300, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 298, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 296, 40, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 294, 40, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 292, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 290, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 287, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 284, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 282, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 278, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 275, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 273, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 271, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 270, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 268, 37, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 265, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 263, 38, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 261, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 652, 352, 53, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 259, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 649, 351, 50, 84
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 257, 36, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 647, 351, 49, 84
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 208, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 254, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 646, 351, 47, 83
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 206, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 252, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 205, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 249, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 756, 285, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 203, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 247, 35, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 757, 288, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 571, 202, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 757, 290, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 201, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 755, 292, 46, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 200, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 243, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 756, 294, 46, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 199, 33, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 242, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 757, 296, 45, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 199, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 241, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 757, 300, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 571, 198, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 239, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 760, 303, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 197, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 236, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 762, 305, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 196, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 234, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 2, ID: 26, Class: person, BBox: 703, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 746, 274, 46, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 747, 276, 45, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 749, 280, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 753, 283, 43, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 756, 285, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 288, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 290, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 755, 292, 46, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 756, 294, 46, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 296, 45, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 300, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 760, 303, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 762, 305, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 764, 306, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 767, 307, 44, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 769, 309, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 772, 311, 43, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 22, Class: person, BBox: 771, 259, 41, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 22, Class: person, BBox: 772, 261, 42, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 22, Class: person, BBox: 771, 263, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 2, ID: 17, Class: person, BBox: 568, 246, 33, 76
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 703, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 746, 274, 46, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 747, 276, 45, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 749, 280, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 208, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 2, ID: 26, Class: person, BBox: 703, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 568, 246, 33, 76
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 652, 352, 53, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 749, 280, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 208, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 753, 283, 43, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 206, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 205, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 756, 285, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 203, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 288, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 571, 202, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 290, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 201, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 755, 292, 46, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 200, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 756, 294, 46, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 199, 33, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 296, 45, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 199, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 300, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 571, 198, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 760, 303, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 197, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 762, 305, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 196, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 764, 306, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 195, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 574, 194, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 577, 191, 29, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 578, 190, 28, 66
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 579, 188, 28, 66
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 580, 188, 28, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 187, 28, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 185, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 185, 30, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 184, 30, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 580, 183, 32, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 580, 182, 32, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 579, 180, 33, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 580, 179, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 579, 177, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 578, 175, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 578, 175, 31, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 25, Class: person, BBox: 532, 322, 47, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 3, ID: 24, Class: person, BBox: 336, 313, 38, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 311, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 308, 36, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 305, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 303, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 300, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 298, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 296, 40, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 294, 40, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 292, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 290, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 287, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 284, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 282, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 278, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 275, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 273, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 271, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 270, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 268, 37, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 265, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 263, 38, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 261, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 259, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 257, 36, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 254, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 208, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 252, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 206, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 249, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 205, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 247, 35, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 203, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 571, 202, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 201, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 243, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 200, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 242, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 199, 33, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 241, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 199, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 239, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 571, 198, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 236, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 197, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 234, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 196, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 232, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 195, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 230, 33, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 574, 194, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 227, 33, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 577, 191, 29, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 578, 190, 28, 66
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 579, 188, 28, 66
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 580, 188, 28, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 581, 187, 28, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 581, 185, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 581, 185, 30, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 581, 184, 30, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 580, 183, 32, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 580, 182, 32, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 579, 180, 33, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 580, 179, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 579, 177, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 578, 175, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 578, 175, 31, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 578, 173, 29, 64
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 578, 172, 29, 64
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 25, Class: person, BBox: 533, 317, 44, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 25, Class: person, BBox: 534, 316, 42, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 25, Class: person, BBox: 534, 314, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 25, Class: person, BBox: 533, 310, 42, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 25, Class: person, BBox: 532, 308, 42, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 25, Class: person, BBox: 530, 306, 44, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 25, Class: person, BBox: 530, 305, 43, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 25, Class: person, BBox: 529, 305, 44, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 7: person: 31
+Frame 7, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 303, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 300, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 298, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 337, 296, 40, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 337, 294, 40, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 337, 292, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 336, 290, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 336, 287, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 335, 284, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 336, 282, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 337, 278, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 336, 275, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 336, 273, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 336, 271, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 336, 270, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 335, 268, 37, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 334, 265, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 334, 263, 38, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 335, 261, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 26, Class: person, BBox: 652, 352, 53, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 335, 259, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 12, Class: person, BBox: 749, 280, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 336, 257, 36, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 254, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 12, Class: person, BBox: 753, 283, 43, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 339, 252, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 339, 249, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 339, 247, 35, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 12, Class: person, BBox: 755, 292, 46, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 339, 243, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 242, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 241, 37, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 239, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 337, 236, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 337, 234, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 232, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 339, 230, 33, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 339, 227, 33, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 225, 34, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 223, 34, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 222, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 221, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 219, 34, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 218, 34, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 217, 34, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 338, 215, 34, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 7, ID: 24, Class: person, BBox: 339, 213, 34, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 3, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 313, 38, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 311, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 308, 36, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 305, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 303, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 300, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 298, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 296, 40, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 294, 40, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 292, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 290, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 287, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 284, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 282, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 278, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 275, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 273, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 271, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 270, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 268, 37, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 265, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 263, 38, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 261, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 652, 352, 53, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 259, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 749, 280, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 257, 36, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 254, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 208, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 753, 283, 43, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 252, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 206, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 249, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 205, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 756, 285, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 247, 35, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 203, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 757, 288, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 571, 202, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 757, 290, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 201, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 2, ID: 17, Class: person, BBox: 568, 246, 33, 76
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 703, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 26, Class: person, BBox: 652, 352, 53, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 749, 280, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 208, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 206, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 753, 283, 43, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 205, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 203, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 756, 285, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 571, 202, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 288, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 201, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 290, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 200, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 755, 292, 46, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 199, 33, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 756, 294, 46, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 199, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 296, 45, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 571, 198, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 757, 300, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 197, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 760, 303, 46, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 572, 196, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 762, 305, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 573, 195, 31, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 764, 306, 45, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 574, 194, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 767, 307, 44, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 577, 191, 29, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 12, Class: person, BBox: 769, 309, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 578, 190, 28, 66
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 579, 188, 28, 66
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 580, 188, 28, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 187, 28, 65
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 185, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 2, ID: 17, Class: person, BBox: 581, 185, 30, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 5, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 652, 352, 53, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 5, ID: 26, Class: person, BBox: 649, 351, 50, 84
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 3, ID: 17, Class: person, BBox: 569, 244, 33, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 313, 38, 97
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 701, 351, 58, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 244, 32, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 311, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 59, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 242, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 308, 36, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 698, 350, 58, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 241, 31, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 305, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 697, 351, 57, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 238, 31, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 303, 37, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 695, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 236, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 300, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 693, 353, 57, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 235, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 298, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 692, 353, 56, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 234, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 296, 40, 100
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 690, 354, 56, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 233, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 294, 40, 101
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 688, 354, 55, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 567, 232, 32, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 292, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 685, 354, 54, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 568, 230, 33, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 290, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 684, 354, 52, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 229, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 287, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 682, 354, 51, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 569, 227, 32, 75
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 284, 39, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 50, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 570, 225, 31, 74
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 282, 38, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 680, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 223, 29, 70
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 337, 278, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 678, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 221, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 275, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 676, 354, 48, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 220, 28, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 273, 36, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 673, 354, 49, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 219, 29, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 271, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 670, 354, 49, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 574, 218, 30, 69
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 270, 36, 94
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 667, 354, 50, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 215, 31, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 268, 37, 96
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 662, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 214, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 265, 38, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 659, 354, 51, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 213, 33, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 334, 263, 38, 99
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 657, 353, 52, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 212, 32, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 261, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 655, 353, 52, 85
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 211, 34, 73
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 335, 259, 37, 98
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 26, Class: person, BBox: 652, 352, 53, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 210, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 336, 257, 36, 95
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 749, 280, 44, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 208, 34, 72
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 338, 254, 35, 92
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 751, 282, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 206, 32, 71
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 252, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 753, 283, 43, 88
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 205, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 249, 34, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 755, 284, 42, 87
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 203, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 247, 35, 90
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 756, 285, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 571, 202, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 757, 288, 42, 86
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 572, 201, 32, 67
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 245, 35, 91
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 757, 290, 43, 89
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 17, Class: person, BBox: 573, 200, 32, 68
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 24, Class: person, BBox: 339, 243, 36, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 3, ID: 12, Class: person, BBox: 755, 292, 46, 93
+Takip Edilen Nesnenin Tracker Bilgileri:
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 1: person: 28
+Frame 2: person: 28
+Frame 3: person: 29
+Frame 4: person: 31
+Frame 5: person: 31
+Frame 6: person: 31
+Frame 7: person: 31

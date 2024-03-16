@@ -44,11 +44,11 @@ def main(video_path):
             frame = detection_object(detections,detected_frame,frame_height,frame_width)
 
         elif roi_selected and track_mode:
-            frame = detection_roi_single(detections,roi,detected_frame)
+            frame = detection_roi_single(detections,roi,detected_frame,frame_height,frame_width)
             
 
         elif multi_roi_selection and track_mode:
-            frame = detection_roi_multi(detections,rois,detected_frame)
+            frame = detection_roi_multi(detections,rois,detected_frame,frame_height,frame_width)
 
         cv2.imshow('VisionaryTrack', frame)
         out.write(frame)

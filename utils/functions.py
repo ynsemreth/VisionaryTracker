@@ -9,10 +9,10 @@ def add_weighted_heat(heatmap, center_x, center_y, weight=1, size=10):
     g = np.exp(-((d ** 2).sum(axis=2)) / (2.0 * size))
     g /= g.max()
 
-    start_x = max(center_x - size//2, 0)
-    end_x = min(center_x + size//2, heatmap.shape[1])
-    start_y = max(center_y - size//2, 0)
-    end_y = min(center_y + size//2, heatmap.shape[0])
+    start_x = int(max(center_x - size//2, 0))
+    end_x = int(min(center_x + size//2, heatmap.shape[1]))
+    start_y = int(max(center_y - size//2, 0))
+    end_y = int(min(center_y + size//2, heatmap.shape[0]))
 
     heatmap[start_y:end_y, start_x:end_x] += g[:end_y-start_y, :end_x-start_x] * weight
 
@@ -20,15 +20,16 @@ def add_weighted_heat(heatmap, center_x, center_y, weight=1, size=10):
 
 frame_id = 0
 
-def save_hog_features_and_image(frame, hog_features_path, cropped_images_path):
+def save_hog_features_and_image(frame, hog_features_path, cropped_images_path,hog_exract_path):
     global frame_id 
-    fd = hog(frame, orientations=8, pixels_per_cell=(16, 16),
-                        cells_per_block=(1, 1), visualize=True, channel_axis=-1)
+    fd, hog_image = hog(frame, orientations=8, pixels_per_cell=(16, 16),
+                    cells_per_block=(1, 1), visualize=True, channel_axis=-1)
     
-    frame_id += 1
-    np.savetxt(f"{hog_features_path}/frame_{frame_id}.txt", fd , fmt='%s')
+    np.savetxt(f"{hog_features_path}/frame_{frame_id}.txt", fd, fmt='%f')
     cv2.imwrite(f"{cropped_images_path}/frame_{frame_id}.jpg", frame)
+    cv2.imwrite(f"{hog_exract_path}/hog_frame_{frame_id}.jpg", hog_image)
 
+    frame_id += 1
 
 def save_tracking_results(detections, frame_id, file_path='./result/tracking_results_byte.txt', file_tracker=False):
     with open(file_path, 'a') as file:
@@ -45,8 +46,6 @@ def save_tracking_results(detections, frame_id, file_path='./result/tracking_res
                 line = f"Frame {frame_id}, ID: {tracking_id}, Class: {class_name}, BBox: {bbox_str}\n"
                 file.write(line)
             file.write("Takip Edilen Nesnenin Tracker Bilgileri:\n")
-
-
 
 def calculate_overlap(roi, detection):
     x1, y1, w1, h1 = roi
