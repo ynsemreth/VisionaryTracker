@@ -1,0 +1,5 @@
+classes:
+  - name: person
+    color: '#00ffc3'
+  - name: car
+    color: '#00ffc3'
