@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 from byte_track_Utils.detections import draw
-from utils.functions import add_weighted_heat,save_tracking_results,calculate_overlap,extract_resnet50_features,calculate_feature_distance
+from utils.functions import *
 
 lines = {}
 arrow_lines = []
