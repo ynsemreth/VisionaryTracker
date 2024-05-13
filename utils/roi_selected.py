@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 from byte_track_Utils.detections import draw
-from utils.functions import add_weighted_heat,save_tracking_results,calculate_overlap,save_hog_features_and_image
+from utils.functions import add_weighted_heat,save_tracking_results,calculate_overlap,extract_resnet50_features,calculate_feature_distance
 
 lines = {}
 arrow_lines = []
@@ -64,37 +64,57 @@ def detection_object(detections,detected_frame,frame_height,frame_width):
 
     return detected_frame 
 
-def detection_roi_single(detections,roi,detected_frame,frame_height,frame_width):
+def detection_roi_single(detections, roi, detected_frame, frame_height, frame_width):
     global frame_id
     global tracking_id
     global heatmap_accumulator
+    global resnet50_features_best
+
     if heatmap_accumulator is None:
         heatmap_accumulator = np.zeros((frame_height, frame_width), dtype=np.float32)
-    hog_features_path = './hog/single_track/hog_features/'
-    cropped_images_path = './hog/single_track/cropped_images_hog/'
-    hog_exract_path = './hog/single_track/hog_images/'
-    if tracking_id is not None:
-        detection_to_track = [d for d in detections if d.get('id') == tracking_id]
-        if detection_to_track:
-            best_detection = detection_to_track[0]  
-        else:
-            best_detection = None 
+        print("Isı haritası biriktirici başlatıldı.")
+
+    best_overlap = 0
+    best_detection = None
+    
+    for detection in detections:
+        current_overlap = calculate_overlap(roi, detection)
+        if current_overlap > best_overlap:
+            best_overlap = current_overlap
+            best_detection = detection
+
+    if best_detection:
+        tracking_id = best_detection['id']
+        resnet50_features_best = extract_resnet50_features(detected_frame[best_detection['y']:best_detection['y']+best_detection['height'], best_detection['x']:best_detection['x']+best_detection['width']])
+        print(f"En iyi tespit bulundu. Takip ID'si: {tracking_id}. ResNet50 özellikleri çıkarıldı.")
+
+    most_similar_feature_distance = float('inf')
+    most_similar_detection = None
+
+    for detection in detections:
+        bbox = detected_frame[detection['y']:detection['y']+detection['height'], detection['x']:detection['x']+detection['width']]
+        print(f"Seçilen Features çıktısı : {resnet50_features_best}")
+        resnet50_features_current = extract_resnet50_features(bbox)
+        print(f"Tüm nesnelerin tek tek featuresları: {resnet50_features_current}")
+        feature_distance = calculate_feature_distance(resnet50_features_best, resnet50_features_current)
+        if feature_distance < most_similar_feature_distance:
+            most_similar_feature_distance = feature_distance
+            most_similar_detection = detection
+
+    if most_similar_detection:
+        tracking_id = most_similar_detection['id']
+        print(f"En benzer tespit bulundu. Takip ID'si güncellendi: {tracking_id}.")
+        resnet50_features_best = extract_resnet50_features(detected_frame[most_similar_detection['y']:most_similar_detection['y']+most_similar_detection['height'], most_similar_detection['x']:most_similar_detection['x']+most_similar_detection['width']])
+        print("ResNet50 özellikleri güncellendi.")
     else:
-        best_overlap = 0
-        best_detection = None
-        for detection in detections:
-            current_overlap = calculate_overlap(roi, detection)
-            if current_overlap > best_overlap:
-                best_overlap = current_overlap
-                best_detection = detection
-        if best_detection:
-            tracking_id = best_detection['id']
+        tracking_id = None
+        print("Benzer tespit bulunamadı. Takip ID'si 'None' olarak ayarlandı.")
                 
     if best_detection is not None:
-        tracking_id = best_detection['id'] 
+        tracking_id = best_detection['id']
         print(tracking_id)
         if tracking_id not in lines:
-            color = (np.random.randint(0,255), np.random.randint(0,255), np.random.randint(0,255))
+            color = (np.random.randint(0, 255), np.random.randint(0, 255), np.random.randint(0, 255))
             best_detection['color'] = color
             lines[tracking_id] = {'points': [], 'arrows': [], 'color': color}
         else:
@@ -123,19 +143,14 @@ def detection_roi_single(detections,roi,detected_frame,frame_height,frame_width)
             for arrow_line in arrow_lines:
                 detected_frame = cv2.arrowedLine(detected_frame, tuple(arrow_line['start']), tuple(arrow_line['end']), line_value['color'], 2, line_type=cv2.LINE_AA)
     frame_id += 1
+    heatmap(heatmap_accumulator)
     detection_to_draw = [detection for detection in detections if detection.get('id') == tracking_id]
     if detection_to_draw:
-        for detection in detection_to_draw:
-            x, y, w, h = detection['x'], detection['y'], detection['width'], detection['height']
-            cropped_frame = detected_frame[y:y+h, x:x+w]
-
-            save_hog_features_and_image(cropped_frame, hog_features_path, cropped_images_path,hog_exract_path)
-    heatmap(heatmap_accumulator)
-    if detection_to_draw:
-        detected_frame = draw(detected_frame, detection_to_draw,tracking_id=tracking_id)
+        detected_frame = draw(detected_frame, detection_to_draw, tracking_id=tracking_id)
         save_tracking_results(detection_to_draw, frame_id)
     
     return detected_frame
+
     
 def detection_roi_multi(detections, rois, detected_frame, frame_height, frame_width):
     global heatmap_accumulator
@@ -206,18 +221,3 @@ def heatmap(heatmap_accumulator):
 
     cv2.imwrite('./result/heatmap.jpg', heatmap_color)
     
-    
-    
-# Kodunuzda initial_tracker_ids ve tracker_ids adında iki farklı sözlük kullanıyorsunuz.
-# initial_tracker_ids, başlangıçta takip edilen nesnelerin kimliklerini saklar, tracker_ids ise mevcut karedeki tespit edilen nesnelerin kimliklerini saklar.
-# Kodumuza bakarak, her bir roi için bir tane tracker kimliği atanmasını beklersiniz. 
-# Ancak, kodunuzda bu işlevsellik yerine, her bir roi için en iyi örtüşen tespiti seçip bir initial_tracker_ids sözlüğüne ekleyip, 
-# sonra her bir tespiti ayrı ayrı tracker_ids sözlüğüne ekliyorsunuz. Bu nedenle, aynı nesneyi takip eden farklı tespitler için farklı kimlikler atanabilir.
-
-# tracker_ids sözlüğüne yeni bir tespit eklerken, tüm mevcut tespitleri yazdırıyorsunuz. 
-# Bu, her döngü adımında tracker_ids sözlüğünün tamamını yazdırmanıza neden olur. 
-# Her döngü adımında yalnızca bir tespitin eklenmesi gerektiğini varsayarsak, bu çıktı gereksiz olabilir.
-
-# Döngü içinde, her bir roi için en iyi tespit seçilirken, bu tespitin bir kimliği olup olmadığını kontrol ediyorsunuz. 
-# Eğer yoksa, best_detection['id'] değeri None olarak atanır ve daha sonra tracker_ids sözlüğüne eklenir. 
-# Ancak, initial_tracker_ids sözlüğüne eklenmez. Bu, initial_tracker_ids sözlüğünün her zaman boş kalmasına neden olabilir.

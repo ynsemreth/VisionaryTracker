@@ -8,7 +8,7 @@ Bu proje, video akışlarında veya bir web kamerasından gerçek zamanlı nesne
 ## Eğitim 
 
 ```sh
-python train.py --workers 2 --device 'cpu' --batch 4 --data C:\Users\cypoi\Masaüstü\VisionaryTracker\data\carandperson\data.yaml --img 640 --cfg C:\Users\cypoi\Masaüstü\VisionaryTracker\models\detect\gelan-c.yaml --weights 'C:\Users\cypoi\Masaüstü\VisionaryTracker\gelan-c.pt' --name kisi --hyp C:\Users\cypoi\Masaüstü\VisionaryTracker\data\hyps\hyp.scratch-high.yaml --min-items 0 --epochs 10 --close-mosaic 15
+python train.py --workers 2 --device 'mps' --batch 4 --data ./data/human/data.yaml --img 640 --cfg ./models/detect/gelan-c.yaml --weights './gelan-c.pt' --name kisi --hyp ./data/hyps/hyp.scratch-high.yaml --min-items 0 --epochs 10 --close-mosaic 15
 ```
 
 ## Özellikler

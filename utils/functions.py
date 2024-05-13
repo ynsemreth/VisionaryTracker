@@ -1,8 +1,11 @@
 import numpy as np
 import cv2 
 from collections import Counter
-from skimage.feature import hog
 
+import torch
+import torchvision.transforms as transforms
+import torchvision.models as models
+from PIL import Image
 
 def add_weighted_heat(heatmap, center_x, center_y, weight=1, size=10):
     d = np.dstack(np.mgrid[-size//2:size//2, -size//2:size//2])
@@ -20,16 +23,39 @@ def add_weighted_heat(heatmap, center_x, center_y, weight=1, size=10):
 
 frame_id = 0
 
+
 def save_hog_features_and_image(frame, hog_features_path, cropped_images_path,hog_exract_path):
     global frame_id 
-    fd, hog_image = hog(frame, orientations=8, pixels_per_cell=(16, 16),
-                    cells_per_block=(1, 1), visualize=True, channel_axis=-1)
     
-    np.savetxt(f"{hog_features_path}/frame_{frame_id}.txt", fd, fmt='%f')
+    img_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    
+    win_size = (16,64) 
+    cell_size = (8, 8)
+    block_size = (16, 16)
+    block_stride = (8, 8)
+    num_bins = 9
+
+    hog = cv2.HOGDescriptor(win_size, block_size, block_stride, cell_size, num_bins)
+
+
+    hog_descriptor = hog.compute(img_gray)
+
+    print('HOG Descriptor:', hog_descriptor)
+    print('HOG Descriptor shape:', hog_descriptor.shape)
+    
+    # Save HOG features to a text file
+    np.savetxt(f"{hog_features_path}/frame_{frame_id}.txt", hog_descriptor.squeeze())
+
+    # Save the cropped frame as an image
     cv2.imwrite(f"{cropped_images_path}/frame_{frame_id}.jpg", frame)
+
+    # Save the HOG descriptor visualization as an image (optional)
+    hog_image = hog.compute(img_gray, (1, 1))  # Compute the HOG image
     cv2.imwrite(f"{hog_exract_path}/hog_frame_{frame_id}.jpg", hog_image)
 
     frame_id += 1
+    
+    return hog_descriptor
 
 def save_tracking_results(detections, frame_id, file_path='./result/tracking_results_byte.txt', file_tracker=False):
     with open(file_path, 'a') as file:
@@ -65,3 +91,27 @@ def calculate_overlap(roi, detection):
     union_area = roi_area + detection_area - intersection_area
     iou = intersection_area / union_area
     return iou
+
+def extract_resnet50_features(image):
+    resnet50 = models.resnet50(pretrained=True)
+
+    resnet50.eval()
+    
+    preprocess = transforms.Compose([
+        transforms.Resize(256),
+        transforms.CenterCrop(224),
+        transforms.ToTensor(),
+        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+    ])
+    input_tensor = preprocess(Image.fromarray(image))
+    input_batch = input_tensor.unsqueeze(0)  
+    if torch.cuda.is_available():
+        input_batch = input_batch.to('cpu')
+        resnet50.to('cpu')
+    with torch.no_grad():
+        features = resnet50(input_batch)
+    features = features.squeeze().cpu().numpy()
+
+    return features
+def calculate_feature_distance(feature1, feature2):
+    return np.linalg.norm(feature1 - feature2)
