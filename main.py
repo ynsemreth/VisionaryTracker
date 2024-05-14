@@ -31,11 +31,18 @@ def main(video_path):
     frame_height = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
     frame_width = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
     
+    frame_count  = 0 
+    
     while True:
         ret, frame = video.read()
         if not ret:
             print("[!] Video akışından kare alınamadı.")
             break
+        
+        frame_count += 1
+        
+        if frame_count % 5 != 0:
+            continue
         
         detections = yolov9.detect(frame, track=True)
         detected_frame = frame
