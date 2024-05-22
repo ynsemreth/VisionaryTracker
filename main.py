@@ -86,7 +86,7 @@ def main(video):
     yolov9.unload()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='YOLOv7 ile nesne tespiti ve takibi')
+    parser = argparse.ArgumentParser(description='YOLOv9 ile nesne tespiti ve takibi')
     parser.add_argument('--video', type=str, required=True, help='Birinci video dosyasının yolu.')
     args = parser.parse_args()
 
